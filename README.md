@@ -7,7 +7,9 @@ CompoSer identifies LCDs by calculating the amino acid composition and linear di
 ### Run CompoSer with Default Parameters
 CompoSer is a Python3 script designed to be run as a stand-alone command-line application. To run CompoSer on your sequences of interest, download the CompoSer.py script and save to a location containing a FASTA file with your protein sequences of interest. Navigate to that location via command line, and run CompoSer with the following command (will use default parameters):
 
-> \>python CompoSer.py -o your_results_file.tsv your_FASTA_sequences_file
+> \>python CompoSer.py -o your_results_file.tsv your_FASTA_sequences_file -a amino_acid_of_interest
+
+The -o flag is required, and allows you to specify the name of the results file that will be created as a result of the CompoSer run. The "-a" flag is also required, and allows you to specify the amino acid(s) that you are interested in for your domain search (see **Customizable Parameters** section below for complete description.
 
 NOTE: Make sure to include the file extension in the command above for your file containing FASTA-formatted sequences. FASTA files will often have the file extension ".fsa" or ".FASTA", but are sometimes also provided as plain-text files (.txt), which should still work with CompoSer. As specified above, CompoSer is designed to output your results in a **t**ab-**s**eparated **v**alues (.tsv) file. This file type was chosen for two main reasons: 1) .tsv files can be easily parsed in downstream computational processing and avoids using comma-delimiters which are often present in FASTA headers, and 2) .tsv files can be opened by Microsoft Excel for the typical user. However, if Microsoft Excel is not set as the default program to open .tsv files, the file must be opened from *within* Excel (i.e. first open Excel, then open the results file from within Excel). Alternatively, you can first change your system settings to open .tsv files with Excel by default.
 <br/>
