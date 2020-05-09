@@ -3,7 +3,7 @@ CompoSer is a ***compo***sition ***s***cann***er*** designed to identify simple 
 
 CompoSer identifies LCDs by calculating the amino acid composition and linear dispersion of amino acids at each position in a protein sequence using a scanning window of defined size. For a complete description of how the algorithm works (complete with graphical representations of algorithm workflow and extensive parameter testing), see the publication cited above.
 
-<br/><br/>
+<br/>
 ## Basic Usage
 ### Run CompoSer with Default Parameters
 CompoSer is a Python3 script designed to be run as a stand-alone command-line application. To run CompoSer on your sequences of interest, download the CompoSer.py script and save to a location containing a FASTA file with your protein sequences of interest. Navigate to that location via command line, and run CompoSer with the following command (will use default parameters):
@@ -12,7 +12,7 @@ CompoSer is a Python3 script designed to be run as a stand-alone command-line ap
 
 NOTE: Make sure to include the file extension in the command above for your file containing FASTA-formatted sequences. FASTA files will often have the file extension ".fsa" or ".FASTA", but are sometimes also provided as plain-text files (.txt), which should still work with CompoSer. As specified above, CompoSer is designed to output your results in a **t**ab-**s**eparated **v**alues (.tsv) file. This file type was chosen for two main reasons: 1) .tsv files can be easily parsed in downstream computational processing and avoids using comma-delimiters which are often present in FASTA headers, and 2) .tsv files can be opened by Microsoft Excel for the typical user. However, if Microsoft Excel is not set as the default program to open .tsv files, the file must be opened from *within* Excel (i.e. first open Excel, then open the results file from within Excel). Alternatively, you can first change your system settings to open .tsv files with Excel by default.
 
-<br/><br/>
+<br/>
 ## Customizable Parameters
 Mulitple CompoSer parameters are customizable at runtime for more targeted CompoSer searches. These include:
 1. Amino acid(s) of interest
@@ -23,7 +23,7 @@ Mulitple CompoSer parameters are customizable at runtime for more targeted Compo
 
 In the following sections, we illustrate the usage of each parameter.
 
-<br/><br/>
+<br/>
 ### Amino Acid(s) of Interest (-a)
 CompoSer requires users to specify an amino acid or group(s) of amino acids of interest for each run. Amino acid(s) are specified using the "-a" flag followed by a space, followed by the single-letter abbreviation for the amino acid of interest. For example, a search for Q-rich regions (with other CompoSer parameters set to default), the command would be:
 
@@ -33,7 +33,7 @@ CompoSer also permits searches for domains enriched in a specific set of residue
 
 > \>python CompoSer.py -o your_results_file.tsv your_FASTA_sequences_file -a DE
 
-<br/><br/>
+<br/>
 ### Composition thresholds (-c)
 The default composition threshold for CompoSer is 40% composition. This means that the specified amino acid(s) of interest must be at least 40% of a given sequence window for further consideration as a domain of interest. Alternative composition thresholds can be specified using the "-c" flag, followed by a space, followed by any value from 0-100 (inclusive). For example, to search for N-rich regions that are at least 60% N, the command would be:
 
@@ -49,13 +49,13 @@ This can also be performed with groups of amino acids, by separating groups of a
 
 Notice that any amino acids that are not separated by the underscore will be considered a group, and their combined composition for each window will be considered in the calculation.
 
-<br/><br/>
+<br/>
 ### Window size (-w)
 By default, CompoSer uses a sliding window size of 20 amino acids. To use an alternative window size, use the "-w" flag, followed by a space, followed by any positive integer value. For example, a search for long S-rich domains at least 60 residues in length would be:
 
 > \>python CompoSer.py -o your_results_file.tsv your_FASTA_sequences_file -a S -w 60
 
-<br/><br/>
+<br/>
 ### Linear dispersion threshold (-d)
 The linear dispersion parameter is a normalized measure of the dispersion of the amino acid(s) of interest within each window. Linear dispersion will always be a decimal value from 0-1, with higher values indicating greater linear dispersion (i.e. approaching perfect spacing of the amino acid(s) of interest within a given window sequence). By default, CompoSer uses a default linear dispersion threshold of 0.5, with the added caveat that the linear dispersion parameter is ignored if the composition of a window sequences exceeds the midpoint between the composition threshold and 100%. For example, at a composition threshold of 40%, the linear dispersion parameter will be ignored for windows with at least 70% composition corresponding to the amino acid(s) of interest.
 
@@ -63,7 +63,7 @@ To define a new linear dispersion threshold, e.g. 0.7, in a search for N-rich do
 
 > \>python CompoSer.py -o your_results_file.tsv your_FASTA_sequences_file -a N -d 0.7
 
-<br/><br/>
+<br/>
 ### "Verbose" output (-v)
 Some users may be interested in the composition and linear dispersion values assigned to each position of the protein. This can be achieved by using the "-v" flag (with no other trailing arguments or characters). For example, the per-position composition and dispersion of Q residues can be assessed using the following command:
 
@@ -71,7 +71,7 @@ Some users may be interested in the composition and linear dispersion values ass
 
 NOTE: verbose mode forces CompoSer to perform the complete set of calculations for each position in a protein. Consequently, verbose output runs will be slower than the default CompoSer, which only performs full calculations for identified LCDs.
 
-<br/><br/>
+<br/>
 ### Combining customizable commands
 All CompoSer commands can be used in combination for highly selective searches. Below are examples of combined commands, and a brief description of what each search is designed to accomplish:
 
