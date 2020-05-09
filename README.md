@@ -69,8 +69,7 @@ Some users may be interested in the composition and linear dispersion values ass
 > \>python CompoSer.py -o your_results_file.tsv your_FASTA_sequences_file -a Q -v
 
 NOTE: verbose mode forces CompoSer to perform the complete set of calculations for each position in a protein. Consequently, verbose output runs will be slower than the default CompoSer, which only performs full calculations for identified LCDs.
-
-
+<br/>
 #### Combining customizable commands
 All CompoSer commands can be used in combination for highly selective searches. Below are examples of combined commands, and a brief description of what each search is designed to accomplish:
 
