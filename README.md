@@ -31,7 +31,7 @@ CompoSer requires users to specify an amino acid or group(s) of amino acids of i
 CompoSer also permits searches for domains enriched in a specific set of residues. For example, users can search for domains enriched in negatively charged residues (D and/or E) with the following command:
 
 > \>python CompoSer.py -o your_results_file.tsv your_FASTA_sequences_file -a DE
-<br/>
+<br/> 
 ### Composition thresholds (-c)
 The default composition threshold for CompoSer is 40% composition. This means that the specified amino acid(s) of interest must be at least 40% of a given sequence window for further consideration as a domain of interest. Alternative composition thresholds can be specified using the "-c" flag, followed by a space, followed by any value from 0-100 (inclusive). For example, to search for N-rich regions that are at least 60% N, the command would be:
 
