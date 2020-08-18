@@ -88,17 +88,17 @@ NOTE: verbose mode forces CompoSer to perform the complete set of calculations f
 ### Combining customizable commands
 All LCD-Composer commands can be used in combination for highly selective searches. Below are examples of combined commands, and a brief description of what each search is designed to accomplish:
 
+__Search for P-rich domains that are at least 65% P, at least 50aa long, and with moderate minimum dispersion of 0.6:__
 > python LCD-Composer.py Sequences_File Results_File -a P -c 65 -w 50 -d 0.6
-<br/>__(search for P-rich domains that are at least 65% P, at least 50aa long, and with moderate minimum dispersion of 0.6)__
 
+__Search for domains that are at least 40% D or E **and** at least 40% K or R (mixed charge domains), that are at least 30aa long, and with moderate minimum dispersion of 0.4:__
 > python LCD-Composer.py Sequences_File Results_File -a DE_KR -c 40_40 -w 30 -d 0.4
-<br/>__(search for domains that are at least 40% D or E **and** at least 40% K or R (mixed charge domains), that are at least 30aa long, and with moderate minimum dispersion of 0.4)__
 
+__Search for domains that are at least 30% G **and** at least 15% R or Y (often associated with RGG domains), that are at least 60aa long, and with relatively high minimum dispersion of 0.7:__
 > python LCD-Composer.py Sequences_File Results_File -a G_RY -c 30_15 -w 60 -d 0.7
-<br/>__(search for domains that are at least 30% G **and** at least 15% R or Y (often associated with RGG domains), that are at least 60aa long, and with relatively high minimum dispersion of 0.7)__
 
+__Search for aromatic-rich domains that are at least 25% F, W, or Y; at least 35aa long; with high minimum dispersion of 0.8; and output the per-position values for each protein in "verbose" mode:__
 > python LCD-Composer.py Sequences_File Results_File -a FWY -c 25 -w 35 -d 0.8 -v
-<br/>__(search for aromatic-rich domains that are at least 25% F, W, or Y; at least 35aa long; with high minimum dispersion of 0.8; and output the per-position values for each protein in "verbose" mode)__
 
 ## License info
 LCD-Composer is subject to the terms of the GPLv3 license.
