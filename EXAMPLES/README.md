@@ -3,7 +3,7 @@
 A set of test sequences has been prepared to demonstrate LCD-Composer usage and expected output.
 
 1. Download the Test_Sequences.fasta file in the EXAMPLES folder.
-2. Download LCD-Composer.py and place in the same folder as Test_Sequences.fasta.<br/>
+2. Download the LCD-Composer.py script and place in the same folder as Test_Sequences.fasta.<br/>
 3. Run any or all of the following commands:<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;***-Basic search for Q-rich LCDs:***<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;python LCD-composer.py TestSequences.fasta TestSequences_Q_RESULTS -a Q<br/><br/>
