@@ -13,4 +13,4 @@ A set of test sequences has been prepared to demonstrate LCD-Composer usage and 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;python LCD-composer.py TestSequences.fasta TestSequences_EK_RESULTS -a EK -c 50<br/><br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;***-Search for long Q/N-rich LCDs with at least 10% Y and moderate dispersion (>0.6):***<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;python LCD-composer.py TestSequences.fasta TestSequences_QNY_RESULTS -a QN_Y -c 40_10 -w 60 -d 0.6<br/><br/>
-4. Compare the resulting output files with the pre-computed results files stored in the EXAMPLES folder.
+4. Download the TestResults.zip file and compare the pre-computed results with the results obtained from running the commands above: the files should be identical.
