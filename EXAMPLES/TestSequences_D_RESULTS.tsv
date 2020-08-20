@@ -1,0 +1,9 @@
+*RUNTIME PARAMETERS*
+Window Size: 20
+Amino Acid(s): D
+Composition Threshold(s): 60
+Linear Dispersion Threshold: 0.5
+Composition to Ignore Dispersion: 80.0
+
+Protein ID	Domain Sequence	Domain Boundaries	Final Domain Composition	Final Domain Linear Dispersion	A	C	D	E	F	G	H	I	K	L	M	N	P	Q	R	S	T	V	W	Y
+sp|P09620|KEX1_YEAST	DKDGDDDNDNDDDDEDDHNSEGDDDDDD	(545-572)	64.29	0.7185	0.0	0.0	64.29	7.14	0.0	7.14	3.57	0.0	3.57	0.0	0.0	10.71	0.0	0.0	0.0	3.57	0.0	0.0	0.0	0.0

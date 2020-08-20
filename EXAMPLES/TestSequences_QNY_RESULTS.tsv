@@ -1,0 +1,9 @@
+*RUNTIME PARAMETERS*
+Window Size: 60
+Amino Acid(s): QN_Y
+Composition Threshold(s): 40_10
+Linear Dispersion Threshold: 0.6
+Composition to Ignore Dispersion: 75.0
+
+Protein ID	Domain Sequence	Domain Boundaries	Final Domain Composition	Final Domain Linear Dispersion	A	C	D	E	F	G	H	I	K	L	M	N	P	Q	R	S	T	V	W	Y
+sp|P05453|ERF3_YEAST	NQGNNQQNYQQYSQNGNQQQGNNRYQGYQAYNAQAQPAGGYYQNYQGYSGYQQGGYQQYNPDAGYQQQYNPQGGYQQYNPQGGYQQQFNPQGGRGNYKNFNYNNNLQGYQAGFQPQSQGMSLNDFQKQQKQ	(5-135)	61.07	0.8859	4.58	0.0	1.53	0.0	3.05	16.03	0.0	0.0	2.29	1.53	0.76	16.03	4.58	29.77	1.53	3.05	0.0	0.0	0.0	15.27
