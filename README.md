@@ -8,14 +8,14 @@ $ python LCD-Composer.py Sequences_File Results_File [-a <amino_acids>] [-c <com
 
 Identify LCDs based on amino acid composition and linear amino acid dispersion.
 
-positional arguments:<br/>
+***positional arguments:***<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sequences_File &nbsp;&nbsp;&nbsp;&nbsp;The name of the file containing your protein sequences, in FASTA format.<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Results_File &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The name of the results file that you want to create and store the resulting LCD data.
 
-required arguments:<br/>
+***required arguments:***<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-a <amino_acids> &nbsp;&nbsp;&nbsp;&nbsp;Amino acid(s) of interest (single letter abbreviation).<br/>
 
-optional arguments:<br/>
+***optional arguments:***<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-c \<composition> &nbsp;&nbsp;&nbsp;&nbsp;Percent composition threshold for amino acid(s) of interest (0-100).<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-w <window_size> &nbsp;&nbsp;&nbsp;Sliding window size.<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-d \<dispersion> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Linear dispersion threshold for amino acid(s) of interest (0.0-1.0).<br/>
