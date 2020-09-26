@@ -2,6 +2,9 @@
 LCD-Composer is a ***l***ow-***c***omplexity ***d***omain ***compo***sition ***s***cann***er*** designed to identify simple or multifaceted low-complexity domains (LCDs) in protein sequences, described in ***(Cascarina et al. Nucleic Acids Research 2020) add link to reference when published***.
 
 LCD-Composer identifies LCDs by calculating the amino acid composition and linear dispersion of amino acids at each position in a protein sequence using a scanning window of defined size. For a full description of how the algorithm works (complete with graphical representations of algorithm workflow and extensive parameter testing), see the publication cited above.
+
+LCD-Composer runs on Python 3 and does not require any external dependencies. The latest version of Python can be downloaded from https://www.python.org/downloads/.
+
 <br/>
 ## Basic Usage
 $ python LCD-Composer.py Sequences_File Results_File [-a <amino_acids>] [-c <composition>] [-w window_size] [-d dispersion] [-i ignore_dispersion_threshold] [-v]
@@ -21,6 +24,12 @@ Identify LCDs based on amino acid composition and linear amino acid dispersion.
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-d \<dispersion> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Linear dispersion threshold for amino acid(s) of interest (0.0-1.0).<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-i <ignore_dispersion_threshold> &nbsp;&nbsp;&nbsp;Threshold at which to ignore the linear dispersion parameter (0.0-1.0).<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-v \<verbose> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Output verbose data for each protein (per-position composition and dispersion values).<br/>
+
+***The following tutorial video demonstrates how to run LCD-Composer with default or customizable parameters:***<br/>
+https://www.youtube.com/watch?v=0fybpRAMi6k&feature=youtu.be
+
+***If you are completely new to using the command line, the following tutorial video demonstrates a few basic commands that will help you navigate through your file system and run Python scripts:***<br/>
+https://www.youtube.com/watch?v=I00rFsnfgeg&feature=youtu.be
 
 ### Run LCD-Composer with Default Parameters
 LCD-Composer is a Python3 script designed to be run as a stand-alone command-line application. To run LCD-Composer on your sequences of interest, download the LCD-Composer.py script and save to a location containing a FASTA file with your protein sequences of interest. Navigate to that location via command line, and run LCD-Composer with the following command (will use default parameters):
