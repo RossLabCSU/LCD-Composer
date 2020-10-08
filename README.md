@@ -22,7 +22,7 @@ Identify LCDs based on amino acid composition and linear amino acid dispersion.
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-c COMPOSITION, --composition COMPOSITION &nbsp;&nbsp;&nbsp;&nbsp;Percent composition threshold for amino acid(s) of interest (0-100).<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-w WINDOW_SIZE, --window_size WINDOW_SIZE &nbsp;&nbsp;&nbsp;Sliding window size.<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-d DISPERSION, --dispersion DISPERSION &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Linear dispersion threshold for amino acid(s) of interest (0.0-1.0).<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-i IGNORE_DISPERSION_THRESHOLD, --ignore_dispersion_threshold IGNORE_DISPERSION_THRESHOLD &nbsp;&nbsp;&nbsp;Threshold at which to ignore the linear dispersion parameter (0.0-1.0).<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-i IGNORE_DISPERSION_THRESHOLD, --ignore_dispersion_threshold IGNORE_DISPERSION_THRESHOLD &nbsp;&nbsp;&nbsp;Threshold at which to ignore the &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;linear dispersion parameter (0.0-1.0).<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-v &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Output verbose data for each protein (per-position composition and dispersion values).<br/>
 
 ***The following tutorial video demonstrates how to run LCD-Composer with default or customizable parameters:***<br/>
