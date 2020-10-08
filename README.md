@@ -3,9 +3,8 @@ LCD-Composer is a ***l***ow-***c***omplexity ***d***omain ***compo***sition ***s
 
 LCD-Composer identifies LCDs by calculating the amino acid composition and linear dispersion of amino acids at each position in a protein sequence using a scanning window of defined size. For a full description of how the algorithm works (complete with graphical representations of algorithm workflow and extensive parameter testing), see the publication cited above.
 
-LCD-Composer runs on Python 3 and does not require any external dependencies. The latest version of Python can be downloaded from https://www.python.org/downloads/.
+LCD-Composer runs on Python 3 and does not require any external dependencies. The latest version of Python can be downloaded from https://www.python.org/downloads/.<br/>
 
-<br/>
 ## Basic Usage
 $ python LCD-Composer.py Sequences_File Results_File [-a AMINO_ACIDS] [-c COMPOSITION] [-w WINDOW_SIZE] [-d DISPERSION] [-i IGNORE_DISPERSION_THRESHOLD] [-v]
 
