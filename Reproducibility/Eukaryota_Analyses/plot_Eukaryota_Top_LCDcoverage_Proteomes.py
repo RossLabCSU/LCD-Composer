@@ -86,10 +86,7 @@ def plotting(total_lcd_contents, lcd_contents_bytype, proteomes, life_domain):
 
     #COMMENT BACK IN FOR LEGEND=========================================================================================
     # leg_items = [Patch(facecolor=colors[i], label=amino_acids[i]) for i in range(len(amino_acids))]
-    
-    # # leg = plt.legend([x for x in range(1, 8)], prop={'family':'Arial', 'size':14}, loc=2, bbox_to_anchor=(1.0, 1.0), title='Number of Organisms\nwith GO Enriched')
     # leg = plt.legend(handles=leg_items, prop={'family':'Arial', 'size':10}, loc=2, bbox_to_anchor=(1.0, 1.0), title='LCD Class', handletextpad=0.2)
-    # # leg.set_title('Number of Organisms\nwith GO Enriched', fontname='Arial', fontsize=12)
     # leg.set_title('LCD Class')
     # plt.setp(leg.get_title(), multialignment='center', fontname='Arial', fontsize=14)
     #COMMENT BACK IN FOR LEGEND=========================================================================================
