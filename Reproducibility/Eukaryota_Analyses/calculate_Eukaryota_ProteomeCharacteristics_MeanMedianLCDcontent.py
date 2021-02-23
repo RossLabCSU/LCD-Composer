@@ -56,7 +56,7 @@ def main():
 def calculate_perc_lcd(proteome, prot_df, lcd_content_df, seqs_df, concatenated_lcd_lengths):
     
     for aa in amino_acids:
-        h = open(proteome + '.fasta_' + aa + '_RESULTS.tsv')    # NEED TO REMOVE .fasta AFTER TESTING===========================
+        h = open(proteome + '_' + aa + '_RESULTS.tsv')
         for i in range(7):
             h.readline()
         header = h.readline()
