@@ -11,8 +11,8 @@
 
 >\>RUN_LCD-Composer_Archaea_Batch.bat
 
->\>python calculate_ProteomeCharacteristics_MeanMedianLCDcontent.py
+>\>python calculate_Archaea_ProteomeCharacteristics_MeanMedianLCDcontent.py
 
->\>python plot_Top_LCDcoverage_Proteomes.py
+>\>python plot_Archaea_Top_LCDcoverage_Proteomes.py
 
 This series of commands generates data appearing in Fig 4, Fig 5A, and Table S1.
