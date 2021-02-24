@@ -14,8 +14,12 @@
 
 >\>python Run_GOanalyses_ModelEukaryoticOrganisms.py
 
+>\>python Calculate_Homotypic_vs_Heterotypic_LCD_Overlap.py
+
 >\>python ModelOrganisms_Non-Weighted_ProteinSampling_GOtermAnalyses.py
+
+>\>python calculate_ModelEukaryoticOrganisms_Non-Weighted_ProteinSampling_Cross-Organism_GOfrequencies.py
 
 >\>python plot_ModelEukaryoticOrganisms_Non-Weighted_ProteinSampling_GOresults.py
 
-This series of commands generates Fig 6, Table S4, Table S6, Table S7, and all data appearing in Table S3 and Table S5.
+This series of commands generates Fig 6, Fig S7, Table S4, Table S6, Table S7, and all data appearing in Table S3 and Table S5.
