@@ -4,7 +4,7 @@ amino_acids = 'ACDEFGHIKLMNPQRSTVWY'
 import numpy as np
 from Bio import SeqIO
 import pickle
-taxonid_to_organism = pickle.load(open('TaxonID_to_Organism (2).dat', 'rb'))    #NEED TO CHANGE BACK AFTER TESTING
+taxonid_to_organism = pickle.load(open('TaxonID_to_Organism.dat', 'rb'))
 
 def main():
 
@@ -16,7 +16,7 @@ def main():
         '50th Percentile':[],
         '75th Percentile':[],
         'Maximum':[]}
-    output = open('Viruses_LCDcontent_Statistics_TESTING.tsv', 'w') #NEED TO CHANGE BACK
+    output = open('Viruses_LCDcontent_Statistics.tsv', 'w')
     output.write('All statistics (except Total Percentage of Proteome in LCD) are per-protein LCD percentages for each LCD class (i.e. the amount of the sequence that is covered by the given LCD type)\n')
     output.write('\t'.join( ['Proteome', 'Organism Name', 'LCD Class', 'Minimum', '25th Percentile', '50th Percentile (Median)', '75th Percentile', 'Maximum', 'Average', 'Total Percentage of Proteome in LCD']) + '\n')
     
@@ -56,7 +56,7 @@ def main():
 def calculate_perc_lcd(proteome, prot_df, lcd_content_df, seqs_df, concatenated_lcd_lengths):
     
     for aa in amino_acids:
-        h = open(proteome + '.fasta_' + aa + '_RESULTS.tsv')    #NEED TO CHANGE BACK
+        h = open(proteome + '_' + aa + '_RESULTS.tsv')
         for i in range(7):
             h.readline()
         header = h.readline()
