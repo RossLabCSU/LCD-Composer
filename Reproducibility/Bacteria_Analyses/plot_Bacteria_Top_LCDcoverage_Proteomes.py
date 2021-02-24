@@ -17,7 +17,7 @@ def main():
     total_lcd_contents = {proteome:0 for proteome in proteomes}
     lcd_contents_bytype = {proteome:{aa:0 for aa in amino_acids} for proteome in proteomes}
     
-    h = open(life_domain + '_LCDcontent_Statistics_TESTING.tsv')    #NEED TO CHANGE BACK
+    h = open(life_domain + '_LCDcontent_Statistics.tsv')
     
     header = h.readline()
     header = h.readline()
