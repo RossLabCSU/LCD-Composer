@@ -99,7 +99,7 @@ def plotting(total_lcd_contents, lcd_contents_bytype, proteomes, life_domain):
     plt.tight_layout()
     
     fig = plt.gcf()
-    fig.set_size_inches(6, 10)
+    fig.set_size_inches(6, 16)
     plt.savefig('Fig 5B - ' + life_domain + '_Top' + str(num_proteomes) + '_LCDproteins.tiff', bbox_inches='tight', dpi=600)
     plt.close()
 
