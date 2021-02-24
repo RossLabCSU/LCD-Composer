@@ -24,6 +24,7 @@
 
 This series of commands generates Fig 6, Fig S7, Table S4, Table S6, Table S7, Table S8, and all data appearing in Table S3 and Table S5.
 
+Run the following commands in-sequence to generate Fig S8:
 
 >\>python ModelOrganisms_LENGTH-WEIGHTED_ProteinSampling_GOtermAnalyses.py
 
@@ -31,6 +32,12 @@ This series of commands generates Fig 6, Fig S7, Table S4, Table S6, Table S7, T
 
 >\>python plot_ModelEukaryoticOrganisms_LENGTH-WEIGHTED_ProteinSampling_GOresults.py
 
-This series of commands generates Fig S8.
+Run the following commands in-sequence to generate Fig S9:
+
+>\>python ModelOrganisms_ALL-ISOFORMS_ProteinSampling_GOtermAnalyses.py
+
+>\>python calculate_ModelEukaryoticOrganisms_ALL-ISOFORMS_ProteinSampling_Cross-Organism_GOfrequencies.py
+
+>\>python plot_ModelEukaryoticOrganisms_ALL-ISOFORMS_ProteinSampling_GOresults.py
 
 
