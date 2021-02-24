@@ -29,9 +29,8 @@ def main():
         output.write('\t'.join( ['# GO', 'NS', 'enrichment', 'name', 'ratio_in_study', 'ratio_in_pop', 'p_uncorrected', 'depth', 'study_count', 'p_bonferroni', 'p_sidak', 'p_holm', 'study_items', 'Iteration Number', 'LCD Class'] ) + '\n')
 
         assoc = get_assoc(abbrevs[i])
-        
-        for iteration in range(1, 2):
-        # for iteration in range(1, 1001):
+
+        for iteration in range(1, 1001):
             print('\n\nIteration: ', iteration, str(datetime.datetime.now()))
             #RUN GO term analysis
             for aa in amino_acids:
