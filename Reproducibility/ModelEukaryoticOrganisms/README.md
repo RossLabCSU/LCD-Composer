@@ -32,7 +32,15 @@ Run the following commands in-sequence to generate Fig S8:
 
 >\>python plot_ModelEukaryoticOrganisms_LENGTH-WEIGHTED_ProteinSampling_GOresults.py
 
-Run the following commands in-sequence to generate Fig S9:
+GO term analysis involving all protien isoforms for each organism requires running LCD-Composer on a different version of each proteome. Run the following commands in-sequence to generate Fig S9:
+
+>\>python write_LCD-Composer_BatchFile_ModelEukaryoticOrganisms_Analyses_ALL-ISOFORMS.py
+
+>\>Run_LCD-Composer_on_ModelEukaryotes_AAvaried_ALL-ISOFORMS.bat
+
+>\>python gather_LCD-ContainingProteins_ALL-ISOFORMS.py
+
+>\>python Run_GOanalyses_ModelEukaryoticOrganisms_ALL-ISOFORMS.py
 
 >\>python ModelOrganisms_ALL-ISOFORMS_ProteinSampling_GOtermAnalyses.py
 
