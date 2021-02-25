@@ -111,7 +111,7 @@ def get_background_prots(proteome):
 def get_assoc(abbrev):
     """
     Reads the proper gene association file (GAF).
-    Return is a dictionary with SGD ORFs as keys, and a set of associated GO terms as values (this is a formal Python set, not a list)
+    Return is a dictionary with Protein IDs as keys, and a set of associated GO terms as values (this is a formal Python set, not a list)
     
     Each list represents a separate GO term associated with the gene key, and contains the following:
     0) Database ("UniProtKB")
