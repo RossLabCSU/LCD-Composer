@@ -16,6 +16,6 @@
 
 >\>python plot_Yeast_LCD-Composer_ComputationTimes.py
 
-This series of commands generates Fig S6A and all panels in Fig S5.
+This series of commands generates Fig S6A and all panels in Fig S5. NOTE: Computation times will, of course, vary based on computer hardware and usage.
 
 Run the following commands in-sequence to generate Fig S8:
