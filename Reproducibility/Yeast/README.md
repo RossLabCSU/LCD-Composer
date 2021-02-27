@@ -14,6 +14,8 @@
 
 >\>python plot_Yeast_LCD_Lengths_ParametersVaried.py
 
-This series of commands generates all panels in Fig S5.
+>\>python plot_Yeast_LCD-Composer_ComputationTimes.py
+
+This series of commands generates Fig S6A and all panels in Fig S5.
 
 Run the following commands in-sequence to generate Fig S8:
