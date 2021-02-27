@@ -59,3 +59,9 @@ To run GO term analyses with homology-based GO evidence codes excluded, we first
 >\>python calculate_ModelEukaryoticOrganisms_EXCLUDED-ANNOTS_ProteinSampling_Cross-Organism_GOfrequencies.py
 
 >\>python plot_ModelEukaryoticOrganisms_EXCLUDED-ANNOTS_ProteinSampling_GOresults.py
+
+Run the following commands in-sequence to generate Fig S6B and Fig S6C:
+
+>\>python LCD-Composer_Modified_VaryAA_and_Output_ComputationTimes.py
+
+>\>python plot_ModelOrganisms_Computation_Times.py
