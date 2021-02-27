@@ -20,4 +20,6 @@
 
 This series of commands generates all panels in Fig S4, all panels in Fig S5, and Fig S6A. NOTE: Computation times will, of course, vary based on computer hardware and usage.
 
-Run the following commands in-sequence to generate Fig S8:
+Initial GO term analysis of the 20 main LCD classes is performed by running the first 4 commands indicated under step #4 in the instructions in the ModelEukaryoticOrganisms directory. One these commands have been completed, copy the 19 resulting "Scerevisiae_X_GO_RESULTS.tsv" files (X represents each of the amino acids...the file for W is never generated because there are no W-rich LCDs in the yeast proteome by these search criteria) into the same folder containing the downloaded Yeast files. Then run the following commands in-sequence:
+
+
