@@ -10,7 +10,6 @@ aa_names = {'A':'Alanine (A)', 'C':'Cysteine (C)', 'D':'Aspartic Acid (D)', 'E':
         'P':'Proline (P)', 'Q':'Glutamine (Q)', 'R':'Arginine (R)', 'S':'Serine (S)',
         'T':'Threonine (T)', 'V':'Valine (V)', 'W':'Tryptophan (W)','Y':'Tyrosine (Y)'}
         
-proteome = 'uniprot-proteome_UP000002311_YeastProteome'
 organism = 'Scerevisiae'
         
 def main():
