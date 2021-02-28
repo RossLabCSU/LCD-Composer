@@ -30,7 +30,7 @@ Initial GO term analysis of the 20 main LCD classes is performed by running the 
 
 >\>python Run_GOterm_Analyses_PrimaryAA-SecondaryAA_Yeast.py
 
->\>python Compare_PrimaryGOenrichment_vs_LCDsubclassingGOenrichment.py
+>\>python Compare_PrimaryGOenrichment_vs_LCDsubclassificationGOenrichment.py
 
 >\>python plot_LCDsubclassification_GOresults_stats.py
 
