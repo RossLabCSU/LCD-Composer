@@ -20,7 +20,7 @@
 
 This series of commands generates all panels in Fig S4, all panels in Fig S5, and Fig S6A. NOTE: Computation times will, of course, vary based on computer hardware and usage.
 
-Initial GO term analysis of the 20 main LCD classes is performed by running the first 4 commands indicated under step #4 in the instructions in the ModelEukaryoticOrganisms directory. Once these commands have been completed, copy the 19 resulting "Scerevisiae_X_GO_RESULTS.tsv" files (X represents each of the amino acids...the file for W is never generated because there are no W-rich LCDs in the yeast proteome by these search criteria) into the same folder containing the downloaded Yeast files. Then run the following commands in-sequence:
+Initial GO term analysis of the 20 main LCD classes is performed by running the first 4 commands indicated under step #4 in the instructions in the ModelEukaryoticOrganisms directory. Once these commands have been completed, copy the 19 resulting "Scerevisiae_X_GO_RESULTS.tsv" files and the "Scerevisiae_X_LCD-containing_proteins.txt" files (X represents each of the amino acids...the file for W is never generated because there are no W-rich LCDs in the yeast proteome by these search criteria) into the same folder containing the downloaded Yeast files. Then run the following commands in-sequence:
 
 >\>python make_Yeast_PrimaryAA-SecondaryAA_LCD-Composer_BatchFile.py
 
@@ -38,5 +38,16 @@ Initial GO term analysis of the 20 main LCD classes is performed by running the 
 
 This series of commands generates Fig 9C and Table S12.
 
+Removal of proteins with high homology from LCD sets prior to analysis (pertaining to Fig S15) requires multiple sequence alignment using the Clustal Omega server submitted via an API script. Run the following commands in-sequence:
 
+>\>python make_LCDsubclassification_ProteinSequences_FastaFiles.py
 
+>\>python make_ClustalW_BatchFile.py
+
+>\>Run_Yeast_LCDsubclassification_Alignments_ClustalW_BatchFile.bat
+
+>\>python get_HighHomology_Prots_LCDsubclassification.py
+
+>\>python remove_HighHomologyProts.py
+
+>\>python .py
