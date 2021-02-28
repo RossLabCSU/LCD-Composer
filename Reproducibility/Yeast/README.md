@@ -32,7 +32,7 @@ Initial GO term analysis of the 20 main LCD classes is performed by running the 
 
 >\>python Compare_PrimaryGOenrichment_vs_LCDsubclassingGOenrichment.py
 
->\>python plot_LCDsubclassing_GOresults_stats.py
+>\>python plot_LCDsubclassification_GOresults_stats.py
 
 This series of commands generates Fig 9C.
 
