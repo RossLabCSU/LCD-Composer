@@ -40,9 +40,17 @@ This series of commands generates Fig 9C and Table S12.
 
 Removal of proteins with high homology from LCD sets prior to analysis (pertaining to Fig S15) requires multiple sequence alignment using the Clustal Omega server submitted via an API script. Run the following commands in-sequence:
 
+>\>python make_PrimaryLCD_ProteinSequences_FastaFiles.py
+
+>\>python make_ClustalW_BatchFile_PrimaryLCDs.py
+
+>\>Run_Yeast_PrimaryLCDs_Alignments_ClustalW_BatchFile.bat
+
+>\>python .py
+
 >\>python make_LCDsubclassification_ProteinSequences_FastaFiles.py
 
->\>python make_ClustalW_BatchFile.py
+>\>python make_ClustalW_BatchFile_LCDsubclassification.py
 
 >\>Run_Yeast_LCDsubclassification_Alignments_ClustalW_BatchFile.bat
 
@@ -50,4 +58,6 @@ Removal of proteins with high homology from LCD sets prior to analysis (pertaini
 
 >\>python remove_HighHomologyProts.py
 
->\>python .py
+>\>python Run_LCDsubclassification_GOtermAnalyses_HighHomologyProtsRemoved.py
+
+>\>python get_PrimaryLCD_sequences.py
