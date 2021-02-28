@@ -34,7 +34,9 @@ Initial GO term analysis of the 20 main LCD classes is performed by running the 
 
 >\>python plot_LCDsubclassification_GOresults_stats.py
 
-This series of commands generates Fig 9C.
+>\>python Compare_lnORs_Primary_vs_Secondary_LCDs.py
+
+This series of commands generates Fig 9C and Table S12.
 
 
 
