@@ -22,7 +22,9 @@
 
 >\>python plot_ModelEukaryoticOrganisms_Non-Weighted_ProteinSampling_GOresults.py
 
-This series of commands generates Fig 6, Fig S7, Table S4, Table S6, Table S7, Table S8, and all data appearing in Table S3 and Table S5.
+>\>python plot_ModelEukaryoticOrganisms_ProportionGOterms_STACKED_BARCHART.py
+
+This series of commands generates Fig 6, Fig S7, Fig S12, Table S4, Table S6, Table S7, Table S8, and all data appearing in Table S3 and Table S5.
 
 Run the following commands in-sequence to generate Fig S8:
 
