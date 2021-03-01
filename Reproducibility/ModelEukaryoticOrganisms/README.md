@@ -65,3 +65,9 @@ Run the following commands in-sequence to generate Fig S6B and Fig S6C:
 >\>python LCD-Composer_Modified_VaryAA_and_Output_ComputationTimes.py
 
 >\>python plot_ModelOrganisms_Computation_Times.py
+
+Run the following commands in-sequence to generate Table S11:
+
+>\>python Run_GOterm_Analyses_PrimaryAA-SecondaryAA_ModelEukaryoticOrganisms.py
+
+>\>python Compare_PrimaryGOenrichment_vs_LCDsubclassingGOenrichment.py
