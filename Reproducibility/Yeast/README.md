@@ -38,7 +38,7 @@ Initial GO term analysis of the 20 main LCD classes is performed by running the 
 
 This series of commands generates Fig 9C and Table S12.
 
-Removal of proteins with high homology from LCD sets prior to analysis (pertaining to Fig S15) requires multiple sequence alignment using the Clustal Omega server submitted via an API script. Run the following commands in-sequence:
+Removal of proteins with high homology from LCD sets prior to analysis (pertaining to Fig S15) requires multiple sequence alignment using the Clustal Omega server submitted via an API script. Run the following commands in-sequence to generate Fig S15A:
 
 >\>python make_PrimaryLCD_ProteinSequences_FastaFiles.py
 
@@ -47,6 +47,8 @@ Removal of proteins with high homology from LCD sets prior to analysis (pertaini
 >\>Run_Yeast_PrimaryLCDs_Alignments_ClustalW_BatchFile.bat
 
 >\>python plot_ClustalW_PrimaryLCDs_PercIdentity_Boxplots.py
+
+Run the following commands in-sequence to generate Fig S15B:
 
 >\>python make_LCDsubclassification_ProteinSequences_FastaFiles.py
 
@@ -63,6 +65,14 @@ Removal of proteins with high homology from LCD sets prior to analysis (pertaini
 >\>python Compare_Primary_vs_Secondary_GOenrichment_80percHomologyProtsRemoved.py
 
 >\>python plot_Primary_vs_Secondary_GOenrichment_80percHomologyProtsRemoved.py
+
+Run the following commands in-sequence to generate Fig 10B, Fig 10C, and Fig S15C:
+
+>\>python gather_MultiLCD_Proteins_and_plot_MultiLCD_Frequencies_Yeast.py
+
+>\>python Run_GOanalyses_Secondary_AA_MultiLCD_proteins.py
+
+
 
 The following command generates all heatmaps appearing in Fig 7, Fig S13, and Fig S14:
 
