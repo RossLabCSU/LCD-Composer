@@ -63,3 +63,8 @@ Removal of proteins with high homology from LCD sets prior to analysis (pertaini
 >\>python Compare_Primary_vs_Secondary_GOenrichment_80percHomologyProtsRemoved.py
 
 >\>python plot_Primary_vs_Secondary_GOenrichment_80percHomologyProtsRemoved.py
+
+The following command generates all heatmaps appearing in Fig 7, Fig S13, and Fig S14:
+
+>\>python plot_LCD_Composition_Clustermaps_Yeast.py
+
