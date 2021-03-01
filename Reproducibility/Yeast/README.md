@@ -66,7 +66,7 @@ Run the following commands in-sequence to generate Fig S15B:
 
 >\>python plot_Primary_vs_Secondary_GOenrichment_80percHomologyProtsRemoved.py
 
-Run the following commands in-sequence to generate Fig S15C:
+Run the following commands in-sequence to generate Fig 10B and Fig S15C:
 
 >\>python gather_MultiLCD_Proteins_and_plot_MultiLCD_Frequencies_Yeast.py
 
@@ -74,7 +74,9 @@ Run the following commands in-sequence to generate Fig S15C:
 
 >\>python make_ClustalW_BatchFile_MultiLCD_Proteins.py
 
-Run the following commands in-sequence to generate Fig 10B, Fig 10C:
+>\>python .py
+
+Run the following commands in-sequence to generate Fig 10C:
 
 >\>python Run_GOanalyses_Secondary_AA_MultiLCD_proteins.py
 
