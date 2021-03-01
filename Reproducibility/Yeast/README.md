@@ -46,7 +46,7 @@ Removal of proteins with high homology from LCD sets prior to analysis (pertaini
 
 >\>Run_Yeast_PrimaryLCDs_Alignments_ClustalW_BatchFile.bat
 
->\>python .py
+>\>python plot_ClustalW_PrimaryLCDs_PercIdentity_Boxplots.py
 
 >\>python make_LCDsubclassification_ProteinSequences_FastaFiles.py
 
@@ -60,4 +60,6 @@ Removal of proteins with high homology from LCD sets prior to analysis (pertaini
 
 >\>python Run_LCDsubclassification_GOtermAnalyses_HighHomologyProtsRemoved.py
 
->\>python get_PrimaryLCD_sequences.py
+>\>python Compare_Primary_vs_Secondary_GOenrichment_80percHomologyProtsRemoved.py
+
+>\>python plot_Primary_vs_Secondary_GOenrichment_80percHomologyProtsRemoved.py
