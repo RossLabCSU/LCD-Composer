@@ -24,7 +24,6 @@ def main():
     for organism in organisms:
         prim_gos = primary_gos[primary_gos['Proteome'] == organism]
         sec_gos = secondary_gos[secondary_gos['Proteome'] == organism]
-        print(sec_gos)
         
         for aa in amino_acids:
             p_gos = prim_gos[prim_gos['Amino Acid'] == aa]
