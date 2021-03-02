@@ -76,11 +76,13 @@ Run the following commands in-sequence to generate Fig 10B and Fig S15C:
 
 >\>python .py
 
-Run the following commands in-sequence to generate Fig 10C:
+Run the following commands in-sequence to generate Fig 10C and Table S14:
 
 >\>python Run_GOanalyses_Secondary_AA_MultiLCD_proteins.py
 
 >\>python plot_LCDsubclassification_GOresults_stats_MultiLCD_Proteins.py
+
+>\>python Compare_lnORs_MultiLCD_Proteins.py
 
 The following command generates all heatmaps appearing in Fig 7, Fig S13, and Fig S14:
 
