@@ -58,7 +58,7 @@ Run the following commands in-sequence to generate Fig S15B:
 
 >\>python get_HighHomology_Prots_LCDsubclassification.py
 
->\>python remove_HighHomologyProts.py
+>\>python remove_HighHomologyProts_SecondaryAA_Prots.py
 
 >\>python Run_LCDsubclassification_GOtermAnalyses_HighHomologyProtsRemoved.py
 
