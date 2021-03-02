@@ -74,10 +74,10 @@ Run the following commands in-sequence to generate Table S11:
 
 >\>python Compare_PrimaryGOenrichment_vs_LCDsubclassingGOenrichment.py
 
-Run the following commands in-sequence to generate Table S12:
+Run the following commands in-sequence to generate Table S13:
 
 >\>python gather_MultiLCD_Proteins_ModelEukaryoticOrganisms.py
 
 >\>python Run_GOterm_Analyses_MultiLCD_Proteins_ModelEukaryoticOrganisms.py
 
->\>python .py
+>\>python Compare_Primary_vs_Secondary_MultiLCD_GOenrichment.py
