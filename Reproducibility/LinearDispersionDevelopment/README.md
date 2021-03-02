@@ -7,4 +7,6 @@
 
 >\>python generate_20aaBenchmarkSequences.py
 
+>\>python python LCD-Composer_Modified_to_Omit_LCD-Trimming.py 20aaBenchmarkSequences.FASTA 20aaBenchmarkSequences_LCD-Composer_RESULTS -a G -c 0 -d 0
+
 >\>python .py
