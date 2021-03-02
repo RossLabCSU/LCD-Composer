@@ -1,7 +1,7 @@
 # Reproducing Analyses Pertaining to Development of the Linear Dispersion Parameter
 
 ### Instructions
-1. Download LCD-Composer.py, as well as all files in the LinearDispersionDevelopment directory and place in the same folder.
+1. Download all files in the LinearDispersionDevelopment directory.
 2. Navigate to appropriate folder via command line.
 3. Run the following commands in-sequence to generate Fig S1 (NOTE: each run must be completed before issuing the next command):
 
