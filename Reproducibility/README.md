@@ -12,3 +12,5 @@ This directory and all subsequent directories contain all necessary information 
 | Seaborn | 0.9.0 |
 | Biopython | 1.76 |
 | GOATOOLS | 1.16.5 |
+
+The ClustalW_API.py script (included in the "Yeast" and "ModelEukaryoticOrganisms" subdirectories) was originally downloaded from the [Clustal Omega website](https://www.ebi.ac.uk/seqdb/confluence/display/JDSAT/Clustal+Omega+Help+and+Documentation) and is redistributed here according to the terms of the Apache License, Version 2.0 (a copy of which is also included in the same subdirectories).
