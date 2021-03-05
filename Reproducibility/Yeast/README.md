@@ -34,7 +34,7 @@ Initial GO term analysis of the 20 main LCD classes is performed by running the 
 
 >\>python make_Yeast_PrimaryAA-SecondaryAA_LCD-Composer_BatchFile.py
 
->\>Run_LCD-Composer_Yeast_PrimaryAA-SeoncdaryAA.bat
+>\>.\Run_LCD-Composer_Yeast_PrimaryAA-SeoncdaryAA.bat
 
 >\>python gather_LCDproteins_PrimaryAA-SecondaryAA.py
 
@@ -54,7 +54,7 @@ Removal of proteins with high homology from LCD sets prior to analysis (pertaini
 
 >\>python make_ClustalW_BatchFile_PrimaryLCDs.py
 
->\>Run_Yeast_PrimaryLCDs_Alignments_ClustalW_BatchFile.bat
+>\>.\Run_Yeast_PrimaryLCDs_Alignments_ClustalW_BatchFile.bat
 
 >\>python plot_ClustalW_PrimaryLCDs_PercIdentity_Boxplots.py
 
@@ -64,7 +64,7 @@ Run the following commands in-sequence to generate Fig S15B:
 
 >\>python make_ClustalW_BatchFile_LCDsubclassification.py
 
->\>Run_Yeast_LCDsubclassification_Alignments_ClustalW_BatchFile.bat
+>\>.\Run_Yeast_LCDsubclassification_Alignments_ClustalW_BatchFile.bat
 
 >\>python get_HighHomology_Prots_LCDsubclassification.py
 
