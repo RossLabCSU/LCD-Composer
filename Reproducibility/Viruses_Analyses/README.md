@@ -10,7 +10,7 @@
 
 >\>python make_Viruses_LCD-Composer_BatchFile.py
 
->\>RUN_LCD-Composer_Viruses_Batch.bat
+>\>.\RUN_LCD-Composer_Viruses_Batch.bat
 
 >\>python calculate_Viruses_ProteomeCharacteristics_MeanMedianLCDcontent.py
 
