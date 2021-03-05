@@ -10,7 +10,7 @@
 
 >\>python make_Eukaryota_LCD-Composer_BatchFile.py
 
->\>RUN_LCD-Composer_Eukaryota_Batch.bat
+>\>.\RUN_LCD-Composer_Eukaryota_Batch.bat
 
 >\>python calculate_Eukaryota_ProteomeCharacteristics_MeanMedianLCDcontent.py
 
