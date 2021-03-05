@@ -33,8 +33,9 @@ https://www.youtube.com/watch?v=I00rFsnfgeg&feature=youtu.be
 ### Run LCD-Composer with Default Parameters
 LCD-Composer is a Python3 script designed to be run as a stand-alone command-line application. To run LCD-Composer on your sequences of interest, download the LCD-Composer.py script and save to a location containing a FASTA file with your protein sequences of interest. Navigate to that location via command line, and run LCD-Composer with the following command (will use default parameters):
 
-> python LCD-Composer.py Sequences_File Results_File -a <amino_acids>
-
+'''
+python LCD-Composer.py Sequences_File Results_File -a <amino_acids>
+'''
 
 The "-a" flag is required, and allows you to specify the amino acid(s) that you are interested in for your domain search (see **Detailed Usage and Customizable Parameters** section below for complete description).
 
