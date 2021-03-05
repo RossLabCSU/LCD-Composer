@@ -10,7 +10,7 @@
 
 >\>python make_Archaea_LCD-Composer_BatchFile.py
 
->\>RUN_LCD-Composer_Archaea_Batch.bat
+>\>.\RUN_LCD-Composer_Archaea_Batch.bat
 
 >\>python calculate_Archaea_ProteomeCharacteristics_MeanMedianLCDcontent.py
 
