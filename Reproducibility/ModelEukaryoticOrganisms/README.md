@@ -41,7 +41,7 @@ python calculate_ModelEukaryoticOrganisms_LENGTH-WEIGHTED_ProteinSampling_Cross-
 ```
 python plot_ModelEukaryoticOrganisms_LENGTH-WEIGHTED_ProteinSampling_GOresults.py
 ```
-
+</br>
 GO term analysis involving all protien isoforms for each organism requires running LCD-Composer on a different version of each proteome. Run the following commands in-sequence to generate Fig S9:
 
 ```
