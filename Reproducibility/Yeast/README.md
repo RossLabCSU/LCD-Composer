@@ -6,6 +6,7 @@
 4. Navigate to appropriate folder via command line.
 5. Run the following commands in-sequence (NOTE: each run must be completed before issuing the next command):
 </br>
+
 ```
 python LCD-Composer_Modified_VaryWindowSize.py UP000002311_Scerevisiae_NoIsoforms.fasta
 ```
@@ -24,7 +25,6 @@ python plot_Yeast_LCD-Composer_ComputationTimes.py
 ```
 python plot_Yeast_TotalNumLCDs_Heatmaps_ParametersVaried.py
 ```
-
 This series of commands generates all panels in Fig S4, all panels in Fig S5, and Fig S6A. NOTE: Computation times will, of course, vary based on computer hardware and usage.
 </br></br></br>
 Run the following commands in-sequence to generate Fig 8 and Table S10:
@@ -41,7 +41,7 @@ python Calculate_SecondaryAA_LCD_Enrichment_Statistics.py
 ```
 python Apply_Bonferroni_Correction_SecondaryAA_LCD_Enrichment_Statistics.py
 ```
-</br
+</br>
 Initial GO term analysis of the 20 main LCD classes is performed by running the first 4 commands indicated under step #4 in the instructions in the ModelEukaryoticOrganisms directory. Once these commands have been completed, copy the 19 resulting "Scerevisiae_X_GO_RESULTS.tsv" files and the "Scerevisiae_X_LCD-containing_proteins.txt" files (X represents each of the amino acids...the file for W is never generated because there are no W-rich LCDs in the yeast proteome by these search criteria) into the same folder containing the downloaded Yeast files. Then run the following commands in-sequence:
 
 ```
