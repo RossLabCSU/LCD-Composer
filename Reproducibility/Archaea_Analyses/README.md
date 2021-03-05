@@ -8,6 +8,7 @@
 5. Navigate to appropriate folder via command line.
 6. Run the following commands in-sequence (NOTE: each run must be completed before issuing the next command):
 </br>
+
 ```    
 python make_Archaea_LCD-Composer_BatchFile.py
 ```
