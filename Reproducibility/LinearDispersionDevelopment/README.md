@@ -21,7 +21,7 @@ Run the following commands in-sequence to generate Fig S3:
 
 >\>python make_ClusteredBenchmarkSequences_BatchFile.py
 
->\>RUN_LCD-Composer_ClusteredBenchmarkSequences.bat
+>\>.\RUN_LCD-Composer_ClusteredBenchmarkSequences.bat
 
 >\>python plot_Breakpoints_for_ClusteredBenchmarkSequences.py
 
