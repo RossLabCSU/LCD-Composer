@@ -8,7 +8,7 @@
 
 >\>python write_LCD-Composer_BatchFile_ModelEukaryoticOrganisms_Analyses.py
 
->\>Run_LCD-Composer_on_ModelEukaryotes_AAvaried.bat
+>\>.\Run_LCD-Composer_on_ModelEukaryotes_AAvaried.bat
 
 >\>python gather_LCD-ContainingProteins.py
 
@@ -38,7 +38,7 @@ GO term analysis involving all protien isoforms for each organism requires runni
 
 >\>python write_LCD-Composer_BatchFile_ModelEukaryoticOrganisms_Analyses_ALL-ISOFORMS.py
 
->\>Run_LCD-Composer_on_ModelEukaryotes_AAvaried_ALL-ISOFORMS.bat
+>\>.\Run_LCD-Composer_on_ModelEukaryotes_AAvaried_ALL-ISOFORMS.bat
 
 >\>python gather_LCD-ContainingProteins_ALL-ISOFORMS.py
 
