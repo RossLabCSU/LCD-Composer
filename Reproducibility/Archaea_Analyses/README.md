@@ -8,11 +8,13 @@
 5. Navigate to appropriate folder via command line.
 6. Run the following commands in-sequence (NOTE: each run must be completed before issuing the next command):
 </br>
-    
-    python make_Archaea_LCD-Composer_BatchFile.py
-</br>
+```    
+python make_Archaea_LCD-Composer_BatchFile.py
+```
 
-    .\RUN_LCD-Composer_Archaea_Batch.bat
+```
+.\RUN_LCD-Composer_Archaea_Batch.bat
+```
 </br>
 
     python calculate_Archaea_ProteomeCharacteristics_MeanMedianLCDcontent.py
