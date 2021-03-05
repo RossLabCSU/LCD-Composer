@@ -65,7 +65,6 @@ python plot_LCDsubclassification_GOresults_stats.py
 ```
 python Compare_lnORs_Primary_vs_Secondary_LCDs.py
 ```
-</br>
 This series of commands generates Fig 9C and Table S12.
 </br></br></br>
 Removal of proteins with high homology from LCD sets prior to analysis (pertaining to Fig S15) requires multiple sequence alignment using the Clustal Omega server submitted via an API script. Run the following commands in-sequence to generate Fig S15A:
