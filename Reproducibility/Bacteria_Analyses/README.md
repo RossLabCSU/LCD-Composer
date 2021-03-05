@@ -10,7 +10,7 @@
 
 >\>python make_Bacteria_LCD-Composer_BatchFile.py
 
->\>RUN_LCD-Composer_Bacteria_Batch.bat
+>\>.\RUN_LCD-Composer_Bacteria_Batch.bat
 
 >\>python calculate_Bacteria_ProteomeCharacteristics_MeanMedianLCDcontent.py
 
