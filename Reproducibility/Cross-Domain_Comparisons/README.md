@@ -7,6 +7,8 @@
 4. Navigate to appropriate folder via command line.
 5. Run the following command:
 
->\>python plot_CrossOrganism_LCDcoverage.py
+```
+python plot_CrossOrganism_LCDcoverage.py
+```
 
 This command generates Fig 4 and Table S2.
