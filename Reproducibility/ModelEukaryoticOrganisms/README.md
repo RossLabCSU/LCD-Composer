@@ -16,11 +16,7 @@
 
 >\>python Calculate_Homotypic_vs_Heterotypic_LCD_Overlap.py
 
->\>python ModelOrganisms_Non-Weighted_ProteinSampling_GOtermAnalyses.py
-
->\>python calculate_ModelEukaryoticOrganisms_Non-Weighted_ProteinSampling_Cross-Organism_GOfrequencies.py
-
->\>python plot_ModelEukaryoticOrganisms_Non-Weighted_ProteinSampling_GOresults.py
+>\>python plot_ModelEukaryoticOrganisms_CrossOrganismGOtermFrequencies.py
 
 >\>python plot_ModelEukaryoticOrganisms_ProportionGOterms_STACKED_BARCHART.py
 
