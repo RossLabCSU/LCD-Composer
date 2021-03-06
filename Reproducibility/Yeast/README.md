@@ -123,6 +123,9 @@ python make_ClustalW_BatchFile_MultiLCD_Proteins.py
 ```
 python .py
 ```
+```
+python plot_Primary_vs_Secondary_GOenrichment_80percHomologyProtsRemoved.py
+```
 </br>
 Run the following commands in-sequence to generate Fig 10C and Table S14:
 
