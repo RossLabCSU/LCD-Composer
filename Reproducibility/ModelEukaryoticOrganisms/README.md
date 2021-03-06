@@ -13,6 +13,9 @@ python write_LCD-Composer_BatchFile_ModelEukaryoticOrganisms_Analyses.py
 .\Run_LCD-Composer_on_ModelEukaryotes_AAvaried.bat
 ```
 ```
+python gather_ModelEukaryoticOrganisms_All_LCDs.py
+```
+```
 python gather_LCD-ContainingProteins.py
 ```
 ```
@@ -28,7 +31,7 @@ python plot_ModelEukaryoticOrganisms_CrossOrganismGOtermFrequencies.py
 python plot_ModelEukaryoticOrganisms_ProportionGOterms_STACKED_BARCHART.py
 ```
 
-This series of commands generates Fig 6, Fig S7, Fig S12, Table S4, Table S6, Table S7, Table S8, and all data appearing in Table S3 and Table S5.
+This series of commands generates Fig 6, Fig S7, Fig S12, Table S3, Table S4, Table S6, Table S7, Table S8, and all data appearing in Table S5.
 </br></br></br>
 Run the following commands in-sequence to generate Fig S8:
 ```
