@@ -56,13 +56,7 @@ python gather_LCD-ContainingProteins_ALL-ISOFORMS.py
 python Run_GOanalyses_ModelEukaryoticOrganisms_ALL-ISOFORMS.py
 ```
 ```
-python ModelOrganisms_ALL-ISOFORMS_ProteinSampling_GOtermAnalyses.py
-```
-```
-python calculate_ModelEukaryoticOrganisms_ALL-ISOFORMS_ProteinSampling_Cross-Organism_GOfrequencies.py
-```
-```
-python plot_ModelEukaryoticOrganisms_ALL-ISOFORMS_ProteinSampling_GOresults.py
+python plot_ModelEukaryoticOrganisms_ALL-ISOFORMS_CrossOrganismGOtermFrequencies.py
 ```
 </br>
 To run GO term analyses with homology-based GO evidence codes excluded, we first need to create gene association files (.gaf) with these homology codes excluded. Run the following commands in-sequence to generate Fig S10:
