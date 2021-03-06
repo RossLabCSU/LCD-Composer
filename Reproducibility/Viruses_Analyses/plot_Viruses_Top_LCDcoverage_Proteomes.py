@@ -40,7 +40,7 @@ def main():
     
 def write_file(total_lcd_contents, lcd_contents_bytype, proteomes, life_domain):
 
-    output = open('PartOfTableS1' + life_domain + ' Percentage_LCDcoverage_wideform.tsv', 'w')
+    output = open('PartOfTableS1_' + life_domain + '_Percentage_LCDcoverage_wideform.tsv', 'w')
     output.write('\t'.join( ['Proteome', 'Organism'] + list(amino_acids) + ['Cumulative Percentage of Proteome Classified as LCD (NOTE: likely inflated due to overlapping LCDs not being considered in the calculations'] ) + '\n')
     
     for proteome in proteomes:
