@@ -22,6 +22,9 @@ python gather_LCD-ContainingProteins.py
 python Run_GOanalyses_ModelEukaryoticOrganisms.py
 ```
 ```
+python gather_ModelEukaryoticOrganisms_AllStatisticallySignificantGOterms.py
+```
+```
 python Calculate_Homotypic_vs_Heterotypic_LCD_Overlap.py
 ```
 ```
@@ -31,7 +34,7 @@ python plot_ModelEukaryoticOrganisms_CrossOrganismGOtermFrequencies.py
 python plot_ModelEukaryoticOrganisms_ProportionGOterms_STACKED_BARCHART.py
 ```
 
-This series of commands generates Fig 6, Fig S7, Fig S12, Table S3, Table S4, Table S6, Table S7, Table S8, and all data appearing in Table S5.
+This series of commands generates Fig 6, Fig S7, Fig S12, and Tables S3-S8.
 </br></br></br>
 Run the following commands in-sequence to generate Fig S8:
 ```
