@@ -121,7 +121,7 @@ python make_MultiLCD_ProteinSequences_FastaFiles.py
 python make_ClustalW_BatchFile_MultiLCD_Proteins.py
 ```
 ```
-python .py
+python plot_LCDsubclassification_GOresults_stats_MultiLCD_Proteins.py
 ```
 ```
 python plot_Primary_vs_Secondary_GOenrichment_80percHomologyProtsRemoved.py
