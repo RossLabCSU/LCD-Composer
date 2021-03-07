@@ -107,7 +107,7 @@ Run the following commands in-sequence to generate Table S11:
 python make_ModelEukaryoticOrganisms_PrimaryAA-SecondaryAA_LCD-Composer_BatchFile.py
 ```
 ```
-.\Run_LCD-Composer_ModelEukaryoticOrganisms_PrimaryAA-SecondaryAA
+.\Run_LCD-Composer_ModelEukaryoticOrganisms_PrimaryAA-SecondaryAA.bat
 ```
 ```
 python gather_LCDproteins_PrimaryAA-SecondaryAA_ModelEukaryoticOrganisms.py
