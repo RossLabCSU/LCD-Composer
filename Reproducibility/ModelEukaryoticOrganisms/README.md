@@ -104,6 +104,9 @@ python plot_ModelOrganisms_Computation_Times.py
 Run the following commands in-sequence to generate Table S11:
 
 ```
+python gather_LCDproteins_PrimaryAA-SecondaryAA_ModelEukaryoticOrganisms.py
+```
+```
 python Run_GOterm_Analyses_PrimaryAA-SecondaryAA_ModelEukaryoticOrganisms.py
 ```
 ```
