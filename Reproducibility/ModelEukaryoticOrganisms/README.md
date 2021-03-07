@@ -83,6 +83,12 @@ Run the following commands in-sequence to generate Fig S11 and Table S9:
 python get_proteome_GOterm_lists.py
 ```
 ```
+python calculate_NumberAssociatedProts_from_GAF_files.py
+```
+```
+python determine_OrgansimSpecific_and_LCDspecific_pval_cutoffs_for_GOtermSampling.py
+```
+```
 python CrossSpecies_GOterm_Sampling_Estimation.py
 ```
 </br>
