@@ -77,7 +77,7 @@ python Run_GOanalyses_ModelEukaryoticOrganisms_EXCLUDED-ANNOTS.py
 python plot_ModelEukaryoticOrganisms_EXCLUDED-ANNOTS_CrossOrganismGOtermFrequencies.py
 ```
 </br>
-Run the following commands in-sequence to generate Fig S11 and Table S9 (NOTE: since these scripts implement random sampling, actual data values in the resulting table may differ slightly from those in Table S9, but should be statistically comparable):
+Run the following commands in-sequence to generate Fig S11 and Table S9 (NOTE: since the final script implements random sampling, actual data values in the resulting table may differ slightly from those in Table S9, but should be statistically comparable):
 
 ```
 python get_proteome_GOterm_lists.py
