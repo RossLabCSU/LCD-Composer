@@ -1,0 +1,12 @@
+*RUNTIME PARAMETERS*
+Window Size: 20
+Amino Acid(s): G_Q
+Composition Threshold(s): 40_20
+Linear Dispersion Threshold: 0.5
+Composition to Ignore Dispersion: 80.0
+
+Protein ID	Domain Sequence	Domain Boundaries	Final Domain Composition	Final Domain Linear Dispersion	A	C	D	E	F	G	H	I	K	L	M	N	P	Q	R	S	T	V	W	Y
+sp|P40159|YNU8_YEAST Uncharacterized protein YNL208W OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=YNL208W PE=1 SV=2	GGQGFGRQGPQGFGGPGPQEFGGPGGQ	(133-159)	66.67	0.9189	0.0	0.0	0.0	3.7	11.11	48.15	0.0	0.0	0.0	0.0	0.0	0.0	14.81	18.52	3.7	0.0	0.0	0.0	0.0	0.0
+sp|P40159|YNU8_YEAST Uncharacterized protein YNL208W OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=YNL208W PE=1 SV=2	GGQGFGGPNPQEFGGQGRQG	(173-192)	65.0	0.7465	0.0	0.0	0.0	5.0	10.0	45.0	0.0	0.0	0.0	0.0	0.0	5.0	10.0	20.0	5.0	0.0	0.0	0.0	0.0	0.0
+sp|P25303|SCJ1_YEAST DnaJ-related protein SCJ1 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=SCJ1 PE=1 SV=2	QGGHGGPGGGFGQRQRQRG	(121-139)	68.42	0.9495	0.0	0.0	0.0	0.0	5.26	47.37	5.26	0.0	0.0	0.0	0.0	0.0	5.26	21.05	15.79	0.0	0.0	0.0	0.0	0.0
+sp|P25367|RNQ1_YEAST [PIN+] prion protein RNQ1 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 GN=RNQ1 PE=1 SV=2	GNNSQGQGQGQGQGQGQGQGQGQG	(149-172)	87.5	0.0892	0.0	0.0	0.0	0.0	0.0	45.83	0.0	0.0	0.0	0.0	0.0	8.33	0.0	41.67	0.0	4.17	0.0	0.0	0.0	0.0
