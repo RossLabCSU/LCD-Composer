@@ -121,6 +121,9 @@ python gather_MultiLCD_Proteins_and_plot_MultiLCD_Frequencies_Yeast.py
 python Run_GOanalyses_Secondary_AA_MultiLCD_proteins.py
 ```
 ```
+python Compare_Primary_vs_Secondary_GOenrichment_MultiLCD_Proteins.py
+```
+```
 python plot_LCDsubclassification_GOresults_stats_MultiLCD_Proteins.py
 ```
 ```
