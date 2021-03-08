@@ -2,8 +2,9 @@
 
 ### Instructions
 1. Download LCD-Composer.py, as well as all files in the Yeast directory and place in the same folder.
-2. Navigate to appropriate folder via command line.
-3. Run the following commands in-sequence (NOTE: each run must be completed before issuing the next command):
+2. Extract files from compressed folders in the same location as LCD-Composer.py
+3. Navigate to appropriate folder via command line.
+4. Run the following commands in-sequence (NOTE: each run must be completed before issuing the next command):
 </br>
 
 ```
