@@ -148,7 +148,7 @@ def plotting(df):
     fig.text(-0.025, 0.5, 'Frequency (Number of Enriched GO Terms)', va='center', rotation='vertical', fontname='Arial', fontsize=16)
     fig.text(0.5, -0.02, 'Number of Organisms Sharing Enriched GO Term', ha='center', fontname='Arial', fontsize=16)
     plt.tight_layout(pad=0.2)
-    plt.savefig('Fig 6 - ModelEukaryoticOrganisms_Non-Weighted_ProteinSampling_GOresults.tiff', bbox_inches ='tight', dpi=600)
+    plt.savefig('Fig 6 - ModelEukaryoticOrganisms_Non-Weighted_GOresults.tiff', bbox_inches ='tight', dpi=600)
     plt.close()  
         
     
