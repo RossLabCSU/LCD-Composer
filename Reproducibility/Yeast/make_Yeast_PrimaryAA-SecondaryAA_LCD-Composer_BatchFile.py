@@ -3,7 +3,7 @@ amino_acids = 'ACDEFGHIKLMNPQRSTVWY'
 
 def main():
 
-    output = open('Run_LCD-Composer_Yeast_PrimaryAA-SeoncdaryAA.bat', 'w')
+    output = open('Run_LCD-Composer_Yeast_PrimaryAA-SecondaryAA.bat', 'w')
 
     file = 'UP000002311_Scerevisiae_NoIsoforms'
     for aa in amino_acids:
