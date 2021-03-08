@@ -13,7 +13,7 @@ python LCD-Composer_Modified_VaryWindowSize.py UP000002311_Scerevisiae_NoIsoform
 python LCD-Composer_Modified_VaryLinearDispersion.py UP000002311_Scerevisiae_NoIsoforms.fasta
 ```
 ```
-python LCD-Composer_Modified_CompositionThreshold.py UP000002311_Scerevisiae_NoIsoforms.fasta
+python LCD-Composer_Modified_VaryCompositionThreshold.py UP000002311_Scerevisiae_NoIsoforms.fasta
 ```
 ```
 python plot_Yeast_LCD_Lengths_ParametersVaried.py
