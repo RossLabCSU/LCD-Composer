@@ -69,6 +69,9 @@ This series of commands generates Fig 9C and Table S12.
 Removal of proteins with high homology from LCD sets prior to analysis (pertaining to Fig S15) requires multiple sequence alignment using the Clustal Omega server submitted via an API script. Run the following commands in-sequence to generate Fig S15A:
 
 ```
+python gather_PrimaryLCD_Proteins.py
+```
+```
 python make_PrimaryLCD_ProteinSequences_FastaFiles.py
 ```
 ```
