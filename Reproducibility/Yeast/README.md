@@ -47,7 +47,7 @@ Initial GO term analysis of the 20 main LCD classes is performed by running the 
 python make_Yeast_PrimaryAA-SecondaryAA_LCD-Composer_BatchFile.py
 ```
 ```
-.\Run_LCD-Composer_Yeast_PrimaryAA-SeoncdaryAA.bat
+.\Run_LCD-Composer_Yeast_PrimaryAA-SecondaryAA.bat
 ```
 ```
 python gather_LCDproteins_PrimaryAA-SecondaryAA.py
