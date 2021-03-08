@@ -112,11 +112,23 @@ python Compare_Primary_vs_Secondary_GOenrichment_80percHomologyProtsRemoved.py
 python plot_Primary_vs_Secondary_GOenrichment_80percHomologyProtsRemoved.py
 ```
 </br>
-Run the following commands in-sequence to generate Fig 10B and Fig S15C:
+Run the following commands in-sequence to generate Fig 10B, Fig 10C, and Table S14:
 
 ```
 python gather_MultiLCD_Proteins_and_plot_MultiLCD_Frequencies_Yeast.py
 ```
+```
+python Run_GOanalyses_Secondary_AA_MultiLCD_proteins.py
+```
+```
+python plot_LCDsubclassification_GOresults_stats_MultiLCD_Proteins.py
+```
+```
+python Compare_lnORs_MultiLCD_Proteins.py
+```
+</br>
+Run the following commands in-sequence to generate Fig S15C:
+
 ```
 python make_MultiLCD_ProteinSequences_FastaFiles.py
 ```
@@ -128,18 +140,6 @@ python gather_MultiLCD_Proteins_and_plot_MultiLCD_Frequencies_Yeast.py
 ```
 ```
 python plot_MultiLCD_GOenrichment_80percHomologyProtsRemoved.py
-```
-</br>
-Run the following commands in-sequence to generate Fig 10C and Table S14:
-
-```
-python Run_GOanalyses_Secondary_AA_MultiLCD_proteins.py
-```
-```
-python plot_LCDsubclassification_GOresults_stats_MultiLCD_Proteins.py
-```
-```
-python Compare_lnORs_MultiLCD_Proteins.py
 ```
 </br>
 The following command generates all heatmaps appearing in Fig 7, Fig S13, and Fig S14:
