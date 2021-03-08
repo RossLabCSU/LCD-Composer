@@ -145,6 +145,9 @@ python get_HighHomology_Prots_MultiLCD.py
 python remove_HighHomologyProts_MultiLCD_Prots.py
 ```
 ```
+python Run_MultiLCD_GOtermAnalyses_HighHomologyProtsRemoved.py
+```
+```
 python plot_MultiLCD_GOenrichment_80percHomologyProtsRemoved.py
 ```
 </br>
