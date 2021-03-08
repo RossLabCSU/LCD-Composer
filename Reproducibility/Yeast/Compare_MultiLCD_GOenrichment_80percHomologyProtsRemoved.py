@@ -28,7 +28,6 @@ def main():
     for aa in amino_acids:
         prim_temp = prim_gos[prim_gos['Primary AA'] == aa]
         sec_temp = sec_gos[sec_gos['Primary AA'] == aa]
-        print(len(sec_temp))
         for secondary_aa in amino_acids.replace(aa, ''):
             p_gos = prim_temp[prim_temp['Secondary AA'] == secondary_aa]
             s_gos = sec_temp[sec_temp['Secondary AA'] == secondary_aa]
