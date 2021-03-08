@@ -127,7 +127,7 @@ python make_ClustalW_BatchFile_MultiLCD_Proteins.py
 python gather_MultiLCD_Proteins_and_plot_MultiLCD_Frequencies_Yeast.py
 ```
 ```
-python plot_Primary_vs_Secondary_GOenrichment_80percHomologyProtsRemoved.py
+python plot_MultiLCD_GOenrichment_80percHomologyProtsRemoved.py
 ```
 </br>
 Run the following commands in-sequence to generate Fig 10C and Table S14:
