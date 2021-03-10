@@ -6,7 +6,7 @@ amino_acids = 'ACDEFGHIKLMNPQRSTVWY'
 def main():
 
     output = open('TableS3_ModelEukaryoticOrganisms_All_LCDs.tsv', 'w')
-    output.write('\t'.join( ['Organism', 'LCD Class', 'Protein ID', 'Domain Boundaries', 'AA Used in Search', 'Final Comp of Search AA', 'Final Dispersion of Search AA'] ) + '\n')
+    output.write('\t'.join( ['Organism', 'LCD Class', 'Protein ID', 'Domain Sequence', 'Domain Boundaries', 'AA Used in Search', 'Final Comp of Search AA', 'Final Dispersion of Search AA'] ) + '\n')
 
     for i in range(len(organisms)):
         proteome = proteomes[i]
