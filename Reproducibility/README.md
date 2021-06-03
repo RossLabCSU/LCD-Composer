@@ -1,6 +1,6 @@
 # Reproduction of Data in Cascarina *et al.* (2021)
 
-This directory and all subsequent directories contain all necessary information and code to reproduce the data in Cascarina *et al.* (2021). Each subdirectory has a unique README file with a series of instructions for re-creating data and figures. Below is a list of dependencies and associated version numbers used for testing and data analysis:
+This directory and all subsequent directories contain all necessary information and code to reproduce the data in [***Cascarina *et al.* (2021), NAR Genomics and Bioinformatics***](https://academic.oup.com/nargab/article/3/2/lqab048/6285187). Each subdirectory has a unique README file with a series of instructions for re-creating data and figures. Below is a list of dependencies and associated version numbers used for testing and data analysis:
 
 | Package | Version |
 | ----------- | ----------- |
