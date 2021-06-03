@@ -4,7 +4,7 @@
 Description:
     LCD-Composer is a composition-based method for identifying low-complexity domains in protein sequences.
 
-    Refer to Cascarina et. al. (2020) Genome Biology (INCLUDE LINK WHEN PUBLISHED) for a complete 
+    Refer to Cascarina et. al. (2021) NAR Genomics and Bioinformatics (https://academic.oup.com/nargab/article/3/2/lqab048/6285187) for a complete 
     description of algorithm testing and application.
 
     Documentation for LCD-Composer is available at https://github.com/RossLabCSU/LCD-Composer.
