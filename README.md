@@ -1,5 +1,5 @@
 # LCD-Composer
-LCD-Composer is a ***l***ow-***c***omplexity ***d***omain ***compo***sition ***s***cann***er*** designed to identify simple or multifaceted low-complexity domains (LCDs) in protein sequences, described in ***(Cascarina et al. 2021)***. NOTE: as of this time, the manuscript is currently under peer review and not yet available.
+LCD-Composer is a ***l***ow-***c***omplexity ***d***omain ***compo***sition ***s***cann***er*** designed to identify simple or multifaceted low-complexity domains (LCDs) in protein sequences, described in [***Cascarina et al. (2021), NAR Genomics and Bioinformatics***](https://academic.oup.com/nargab/article/3/2/lqab048/6285187).
 
 LCD-Composer identifies LCDs by calculating the amino acid composition and linear dispersion of amino acids at each position in a protein sequence using a scanning window of defined size. For a full description of how the algorithm works (complete with graphical representations of algorithm workflow and extensive parameter testing), see the publication cited above.
 
