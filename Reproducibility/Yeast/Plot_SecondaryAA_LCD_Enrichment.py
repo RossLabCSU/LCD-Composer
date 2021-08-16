@@ -9,7 +9,7 @@ import pickle
 amino_acids = 'ACDEFGHIKLMNPQRSTVWY'
 bg_freqs = pickle.load(open('Background_X-rich_Window_SecondaryAA_Frequencies.dat', 'rb'))
   
-aa_titles = {'A':'A-rich', 'C':'Cysteine (C)', 'D':'Aspartic Acid (D)', 'E':'Glutamic Acid (E)',
+aa_titles = {'A':'Alanine (A)', 'C':'Cysteine (C)', 'D':'Aspartic Acid (D)', 'E':'Glutamic Acid (E)',
         'F':'Phenylalanine (F)', 'G':'Glycine (G)', 'H':'Histidine (H)', 'I':'Isoleucine (I)', 
         'K':'Lysine (K)', 'L':'Leucine (L)', 'M':'Methionine (M)', 'N':'Asparagine (N)',
         'P':'Proline (P)', 'Q':'Glutamine (Q)', 'R':'Arginine (R)', 'S':'Serine (S)',
