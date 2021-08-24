@@ -154,7 +154,7 @@ def calc_dispersion(window, combined_aas, other_aas, mins_df, maxs_df):
     
     #HANDLES CASES WITH 100% COMPOSITION (min_stddev AND max_stddev ARE BOTH ZERO)
     if min_stddev == max_stddev:
-        norm_stddev = 0.0
+        norm_stddev = 1.0
     else:
         norm_stddev = 1 - (res_spacing_stddev - min_stddev) / (max_stddev - min_stddev)
         
