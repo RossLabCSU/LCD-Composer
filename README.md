@@ -1,3 +1,12 @@
+## New!
+We've recently created a "MultiProteome" version of LCD-Composer to make it easier to run the same LCD search on multiple proteomes with a single command! This version uses the exact same LCD-identification algorithm as the original LCD-Composer, but allows you to scale your analyses easily to hundreds or thousands of proteomes at once and compare LCD content across proteomes. It will also output basic statistics for each proteome including the total number of LCDs, the number of proteins containing at least one LCD, and the percentage of proteins with at least one LCD.
+
+To run this version, simply download the "LCD-Composer_MultiProteome.py" script, place it in a folder/directory containing your FASTA files of interest, and run via command line like you would for LCD-Composer.py (examples below). This new version contains two additional optional parameters: [-k FILE_KEYWORD] and [-s]. The -k flag allows you to limit your analyses to only FASTA files containing a keyword of your choosing. The -s flag allows you to choose whether you would like to analyze FASTA files in the subdirectories of the current folder/directory. Below are example commands using these flags:
+
+    python LCD-Composer_MultiProteome.py Sequences_File Results_File -a A -k YeastStrain    *(analyzes all FASTA files containing the phrase "YeastStrain" in the current directory)*
+    
+    python LCD-Composer_MultiProteome.py Sequences_File Results_File -a A -k YeastStrain -s     *(analyzes all FASTA files containing the phrase "YeastStrain" in the current directory and all subdirectories)*
+
 # LCD-Composer
 LCD-Composer is a ***l***ow-***c***omplexity ***d***omain ***compo***sition ***s***cann***er*** designed to identify simple or multifaceted low-complexity domains (LCDs) in protein sequences, described in [***Cascarina et al. (2021), NAR Genomics and Bioinformatics***](https://academic.oup.com/nargab/article/3/2/lqab048/6285187).
 
@@ -22,7 +31,7 @@ Identify LCDs based on amino acid composition and linear amino acid dispersion.
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-w WINDOW_SIZE, --window_size WINDOW_SIZE &nbsp;&nbsp;&nbsp;&nbsp;Sliding window size.<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-d DISPERSION, --dispersion DISPERSION &nbsp;&nbsp;&nbsp;&nbsp;Linear dispersion threshold for amino acid(s) of interest (0.0-1.0).<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-i IGNORE_DISPERSION_THRESHOLD, --ignore_dispersion_threshold IGNORE_DISPERSION_THRESHOLD &nbsp;&nbsp;&nbsp;&nbsp;Threshold at which to &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ignore the linear dispersion parameter (0.0-1.0).<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-v &nbsp;&nbsp;&nbsp;&nbsp;Output verbose data for each protein (per-position composition and dispersion values).<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-v, --verbose &nbsp;&nbsp;&nbsp;&nbsp;Output verbose data for each protein (per-position composition and dispersion values).<br/>
 
 ***The following tutorial video demonstrates how to run LCD-Composer with default or customizable parameters:***<br/>
 https://www.youtube.com/watch?v=0fybpRAMi6k&feature=youtu.be
