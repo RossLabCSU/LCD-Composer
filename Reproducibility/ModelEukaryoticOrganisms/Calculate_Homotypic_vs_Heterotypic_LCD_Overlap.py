@@ -15,7 +15,7 @@ def main():
             'Mean Proportion of Overlap':[],
             'Category':[]}
             
-    output = open('TableS8_CrossOrganism_Homotypic_vs_Heterotypic_STATISTICS.tsv', 'w')
+    output = open('TableS6_CrossOrganism_Homotypic_vs_Heterotypic_STATISTICS.tsv', 'w')
     output.write('\t'.join( ['Organism1', 'Organism2', 'On-diagonal Values', 'Off-diagonal Values', 'U-statistic', 'Two-sided P-value'] ) + '\n')
             
     pvals = []
