@@ -78,7 +78,7 @@ def plotting(df):
     rand_samp_counts = random_go_sampling()   #USE ONLY IF YOU WANT TO RE-RUN THE TIME-CONSUMING SAMPLING. OTHERWISE USE THE LINE BELOW WHICH LOADS THE RESULTS OF THE FIRST 100k SAMPLING
     # rand_samp_counts = pickle.load(open('RandomGOtermSampling_CrossOrganismFrequencyEstimationResults_100000_Iterations_ModelEukaryoticOrganisms.dat', 'rb'))     #USE THIS LINE INSTEAD IF YOU HAVE ALREADY PERFORMED THE 100k SAMPLING...THE SAMPLING RESULTS SHOULD BE SAVED IN THIS DATA FILE.
 
-    stats_output = open('TableS9_Statistics_RandomGOtermSampling_ModelEukaryoticOrganisms.csv', 'w')
+    stats_output = open('TableS7_Statistics_RandomGOtermSampling_ModelEukaryoticOrganisms.csv', 'w')
     stats_output.write('LCD Class,# of Organisms with Shared GO Term,# Observed,Total Observed,# from Random Sampling,Total from Random Sampling,Odds Ratio,p-value,Bonferroni-corrected p-value\n')
 
     for aa in amino_acids:
