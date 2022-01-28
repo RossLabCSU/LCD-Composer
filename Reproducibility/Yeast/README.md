@@ -27,7 +27,7 @@ python plot_Yeast_TotalNumLCDs_Heatmaps_ParametersVaried.py
 ```
 This series of commands generates all panels in Fig S4, all panels in Fig S5, and Fig S6A. NOTE: Computation times will, of course, vary based on computer hardware and usage.
 </br></br></br>
-Run the following commands in-sequence to generate Fig 8 and Table S10:
+Run the following commands in-sequence to generate Fig 8 and Table S8:
 
 ```
 python Calculate_Background_X-rich_Window_Frequencies.py
@@ -65,7 +65,7 @@ python plot_LCDsubclassification_GOresults_stats.py
 ```
 python Compare_lnORs_Primary_vs_Secondary_LCDs.py
 ```
-This series of commands generates Fig 9C and Table S12.
+This series of commands generates Fig 9C and Table S10.
 </br></br></br>
 Removal of proteins with high homology from LCD sets prior to analysis (pertaining to Fig S15) requires multiple sequence alignment using the Clustal Omega server submitted via an API script. Run the following commands in-sequence to generate Fig S15A:
 
@@ -112,7 +112,7 @@ python Compare_Primary_vs_Secondary_GOenrichment_80percHomologyProtsRemoved.py
 python plot_Primary_vs_Secondary_GOenrichment_80percHomologyProtsRemoved.py
 ```
 </br>
-Run the following commands in-sequence to generate Fig 10B, Fig 10C, and Table S14:
+Run the following commands in-sequence to generate Fig 10B, Fig 10C, and Table S12:
 
 ```
 python gather_MultiLCD_Proteins_and_plot_MultiLCD_Frequencies_Yeast.py
