@@ -34,7 +34,7 @@ python plot_ModelEukaryoticOrganisms_CrossOrganismGOtermFrequencies.py
 python plot_ModelEukaryoticOrganisms_ProportionGOterms_STACKED_BARCHART.py
 ```
 
-This series of commands generates Fig 6, Fig S7, Fig S12, and Tables S3-S8.
+This series of commands generates Fig 6, Fig S7, Fig S12, and Tables S3-S6.
 </br></br></br>
 Run the following commands in-sequence to generate Fig S8:
 ```
