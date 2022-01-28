@@ -20,7 +20,7 @@ def main():
     primary_gos = pd.DataFrame.from_dict( primary_gos )
     secondary_gos = pd.DataFrame.from_dict( secondary_gos )
 
-    output = open('Table S11 - ModelEukaryoticOrganisms_LCDsubclassing_GOtermEffect.tsv', 'w')
+    output = open('Table S9 - ModelEukaryoticOrganisms_LCDsubclassing_GOtermEffect.tsv', 'w')
     output.write('\t'.join(['Organism', 'GO term', 'Primary LCD Class', 'Secondary LCD Class', 'Effect of Subclassification']) + '\n')
     
     for organism in organisms:
