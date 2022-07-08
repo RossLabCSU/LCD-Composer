@@ -20,9 +20,10 @@ def main():
     go_obo = 'go-basic.obo'
     go = obo_parser.GODag(go_obo)
 
-    full_proteome_lists, lw_prot_list = get_proteomes()
+    full_proteome_lists, lw_prot_lists = get_proteomes()
 
     for i in range(len(abbrevs)):
+        lw_prot_list = lw_prot_lists[abbrevs[i]]
         prots_output = open(abbrevs[i] + '_RandomlySelectedProts_All_Iterations_LENGTH_WEIGHTED.csv', 'w')
         prots_output.write(','.join( ['LCD Class', 'Iteration Number', 'Sampled Proteins (underscore-delimited)'] ) + '\n')
         output = open(abbrevs[i] + '_RandomlySampledProteins_All_Iterations_GO_RESULTS_LENGTH_WEIGHTED.tsv', 'w')
@@ -73,10 +74,11 @@ def length_weighted_prot_sample(lw_prot_list, num_prots):
 def get_proteomes():
 
     all_proteins = {}
-    lw_prot_list = []
+    lw_prot_lists = {}
     for i in range(len(abbrevs)):
         h = open(proteomes[i] + '.fasta')
         prots = []
+        lw_prot_list = []
         for seq_record in SeqIO.parse(h, 'fasta'):
             id = str(seq_record.id)
             seq = str(seq_record.seq)
@@ -89,8 +91,9 @@ def get_proteomes():
 
         organism = abbrevs[i]
         all_proteins[organism] = prots
+        lw_prot_lists[organism] = lw_prot_list
         
-    return all_proteins, lw_prot_list
+    return all_proteins, lw_prot_lists
     
     
 def get_hits(proteome, aa):
