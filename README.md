@@ -1,11 +1,5 @@
 ## New!
-We've recently created a "MultiProteome" version of LCD-Composer to make it easier to run the same LCD search on multiple proteomes with a single command! This version uses the exact same LCD-identification algorithm as the original LCD-Composer, but allows you to scale your analyses easily to hundreds or thousands of proteomes at once and compare LCD content across proteomes. It will also output basic statistics for each proteome including the total number of LCDs, the number of proteins containing at least one LCD, and the percentage of proteins with at least one LCD.
-
-To run this version, simply download the "LCD-Composer_MultiProteome.py" script, place it in a folder/directory containing your FASTA files of interest, and run via command line like you would for LCD-Composer.py (examples below). This new version contains two additional optional parameters: [-k FILE_KEYWORD] and [-s]. The -k flag allows you to limit your analyses to only FASTA files containing a keyword of your choosing. The -s flag allows you to choose whether you would like to analyze FASTA files in the subdirectories of the current folder/directory. Below are example commands using these flags:
-
-    python LCD-Composer_MultiProteome.py Sequences_File Results_File -a A -k YeastStrain    *(analyzes all FASTA files containing the phrase "YeastStrain" in the current directory)*
-    
-    python LCD-Composer_MultiProteome.py Sequences_File Results_File -a A -k YeastStrain -s     *(analyzes all FASTA files containing the phrase "YeastStrain" in the current directory and all subdirectories)*
+LCD-Composer webserver coming soon!
 
 # LCD-Composer
 LCD-Composer is a ***l***ow-***c***omplexity ***d***omain ***compo***sition ***s***cann***er*** designed to identify simple or multifaceted low-complexity domains (LCDs) in protein sequences, described in [***Cascarina et al. (2021), NAR Genomics and Bioinformatics***](https://academic.oup.com/nargab/article/3/2/lqab048/6285187).
@@ -47,6 +41,15 @@ LCD-Composer is a Python3 script designed to be run as a stand-alone command-lin
 The "-a" flag is required, and allows you to specify the amino acid(s) that you are interested in for your domain search (see **Detailed Usage and Customizable Parameters** section below for complete description).
 
 NOTE: Make sure to include the file extension in the command above for your file containing FASTA-formatted sequences. FASTA files will often have the file extension ".fa", ".fsa", or ".FASTA", but are sometimes also provided as plain-text files (.txt), which should still work with LCD-Composer. LCD-Composer is designed to output your results in a **t**ab-**s**eparated **v**alues (.tsv) file. This file type was chosen for two main reasons: 1) .tsv files can be easily parsed in downstream computational processing and avoids using comma-delimiters which are often present in FASTA headers, and 2) .tsv files can be opened by Microsoft Excel for the typical user. However, if Microsoft Excel is not set as the default program to open .tsv files, the file must be opened from *within* Excel (i.e. first open Excel, then open the results file from within Excel). Alternatively, you can first change your system settings to open .tsv files with Excel by default. Please note that Excel notoriously re-formats some gene/protein names to date formats automatically: however, this only occurs if the gene/protein name constitutes the entire FASTA record header in the sequence file, and only for a small number of genes/proteins (e.g. SEPT7, MARCH1, etc.).
+
+## Multi-proteome Version of LCD-Composer
+We've also created a "MultiProteome" version of LCD-Composer to make it easier to run the same LCD search on multiple proteomes with a single command! This version uses the exact same LCD-identification algorithm as the original LCD-Composer, but allows you to scale your analyses easily to hundreds or thousands of proteomes at once and compare LCD content across proteomes. It will also output basic statistics for each proteome including the total number of LCDs, the number of proteins containing at least one LCD, and the percentage of proteins with at least one LCD.
+
+To run this version, simply download the "LCD-Composer_MultiProteome.py" script, place it in a folder/directory containing your FASTA files of interest, and run via command line like you would for LCD-Composer.py (examples below). This new version contains two additional optional parameters: [-k FILE_KEYWORD] and [-s]. The -k flag allows you to limit your analyses to only FASTA files containing a keyword of your choosing. The -s flag allows you to choose whether you would like to analyze FASTA files in the subdirectories of the current folder/directory. Below are example commands using these flags:
+
+    python LCD-Composer_MultiProteome.py Sequences_File Results_File -a A -k YeastStrain    *(analyzes all FASTA files containing the phrase "YeastStrain" in the current directory)*
+    
+    python LCD-Composer_MultiProteome.py Sequences_File Results_File -a A -k YeastStrain -s     *(analyzes all FASTA files containing the phrase "YeastStrain" in the current directory and all subdirectories)*
 
 ## Detailed Usage and Customizable Parameters
 Mulitple LCD-Composer parameters are customizable at runtime for more targeted CompoSer searches. These include:
