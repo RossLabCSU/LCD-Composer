@@ -17,7 +17,7 @@ The scripts in this directory are command-line adaptations of the options availa
 ***positional arguments:***<br/>
 | Positional Argument | Description |
 | --- | --- |
-| Sequences_File | The name of the file containing the protein protein sequences you wish to search for LCDs (in FASTA format). |
+| Sequences_File | The name of the file containing the protein sequences you wish to search for LCDs (in FASTA format). |
 <br />
 
 ***required arguments:***<br/>
@@ -46,7 +46,7 @@ The scripts in this directory are command-line adaptations of the options availa
 ***positional arguments (order matters!):***<br/>
 | Positional Argument | Description |
 | --- | --- |
-| Sequences_File | The name of the file containing the protein protein sequences you want to search for LCDs (in FASTA format). |
+| Sequences_File | The name of the file containing the protein sequences you want to search for LCDs (in FASTA format). |
 | Query_Sequence_File | The name of the file containing the LCD sequence for which you want to find similar LCDs (in FASTA format. |
 <br />
 
@@ -59,6 +59,36 @@ The scripts in this directory are command-line adaptations of the options availa
 <br />
 
 # Option 3: Single-protein lcd search
+***positional arguments:***<br/>
+| Positional Argument | Description |
+| --- | --- |
+| Sequences_File | The name of the file containing the protein sequence you wish to search for LCDs (in FASTA format). |
+<br />
+
+***required arguments:***<br/>
+| Shortcut usage | Argument usage | Description |
+| --- | --- | --- |
+| -a AMINO_ACIDS | --amino_acids AMINO_ACIDS | Amino acid(s) of interest (single letter abbreviation, with a single underscore between each amino acid group when desired). |
+<br />
+
+***optional arguments:***<br/>
+| Shortcut usage | Argument usage | Description |
+| --- | --- | --- |
+| -c COMPOSITION | --composition COMPOSITION | Percent composition threshold for amino acid(s) of interest (0-100). |
+| -w WINDOW_SIZE | --window_size WINDOW_SIZE | Sliding window size. |
+| -d DISPERSION | --dispersion DISPERSION | Linear dispersion threshold for amino acid(s) of interest (0.0-1.0). |
+| -i IGN_DISP_THRESHOLD | --ignore_dispersion_threshold IGN_DISP_THRESHOLD | Threshold at which to ignore the linear dispersion parameter (0.0-1.0). |
+| -m METHOD | --dispersion_method METHOD | Linear dispersion method (accepted arguments are "New" and "Original": see http://lcd-composer.bmb.colostate.edu/help for more details). |
+| -r | --run_autodetect | Run "auto-detect" mode (i.e. a separate LCD search for each of the 20 canonical amino acids). This will override any amino acid specified. |
+| -p | --plot | Generate a composition plot for your protein. Remaining parameters apply only when the -p/--plot option is specified. |
+| -ir IMAGE_RESOLUTION | --img_resolution IMAGE_RESOLUTION | Resolution of plot image. |
+| -iw IMAGE_WIDTH | --img_width IMAGE_WIDTH | Width of plot image in mm. |
+| -ih IMAGE_HEIGHT | --img_height IMAGE_HEIGHT | Height of plot image in mm. |
+| -if IMAGE_FILETYPE | --img_filetype IMAGE_FILETYPE | Filetype (i.e. file extension) of plot. |
+| -tl THRESHOLD_LINE | --threshold_line THRESHOLD_LINE | Composition threshold at which to draw a horizontal threshold line. |
+| -cp COLOR_PALETTE | --color_palette COLOR_PALETTE | Color palette for plotting LCD categories. Must be a series of hex codes separated by underscores and *without* the customary hashtag as the first character. |
+| -pa PLOTTING_AAS | --plotting_aas PLOTTING_AAS | Amino acid(s) for plotting (if different from amino acids used in the LCD search). Each AA group should be separated by an underscore. |
+<br />
 
 # Option 4: LCD enrichment analysis
 
