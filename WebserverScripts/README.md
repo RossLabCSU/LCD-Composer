@@ -7,7 +7,7 @@ The scripts in this directory are command-line adaptations of the options availa
 [Option 3: Single-protein LCD search](#option-3-single-protein-lcd-search)<br />
 [Option 4: LCD enrichment analysis](#option-4-lcd-enrichment-analysis)<br />
 [Option 5: LCD co-occurrence analysis](#option-5-lcd-co-occurrence-analysis)<br />
-[Automated GO-term analysis](#-automated-go-term-analysis)
+[Automated GO-term analysis](#automated-go-term-analysis)
 
 # Option 1: Standard LCD-Composer search
 **Basic usage:**
