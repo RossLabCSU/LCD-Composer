@@ -58,7 +58,7 @@ The scripts in this directory are command-line adaptations of the options availa
 | -if ISOFORMS_FILE | --isoforms_file ISOFORMS_FILE | Specify another FASTA-formatted file containing additional isoforms to include in the search if desired. |
 <br />
 
-# Option 3: Single-protein lcd search
+# Option 3: Single-protein LCD search
 ***positional arguments:***<br/>
 | Positional Argument | Description |
 | --- | --- |
