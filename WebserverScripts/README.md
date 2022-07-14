@@ -19,8 +19,7 @@ Identify LCDs based on amino acid composition and linear amino acid dispersion.
 ***positional arguments:***<br/>
 | Positional Argument | Description |
 | --- | --- |
-| Sequences_File | The name of the file containing your protein sequences (in FASTA format). |
-| Results_File | The name of the results file that you want to create and store the resulting LCD data. |
+| Sequences_File | The name of the file containing the protein protein sequences you wish to search for LCDs (in FASTA format). |
 <br />
 
 ***required arguments:***<br/>
@@ -42,6 +41,26 @@ Identify LCDs based on amino acid composition and linear amino acid dispersion.
 <br />
 
 # Option 2: LCD similarity search
+**Basic usage:**
+
+    python LCD-Composer.py Sequences_File Results_File [-a AMINO_ACIDS] [-c COMPOSITION] [-w WINDOW_SIZE] [-d DISPERSION] [-i IGNORE_DISPERSION_THRESHOLD]
+
+Identify LCDs based on amino acid composition and linear amino acid dispersion.
+
+***positional arguments (order matters!):***<br/>
+| Positional Argument | Description |
+| --- | --- |
+| Sequences_File | The name of the file containing the protein protein sequences you want to search for LCDs (in FASTA format). |
+| Query_Sequence_File | The name of the file containing the LCD sequence for which you want to find similar LCDs (in FASTA format. |
+<br />
+
+***optional arguments:***<br/>
+| Shortcut usage | Argument usage | Description |
+| --- | --- | --- |
+| -n NUMBER_OF_FEATURES | --n_features NUMBER_OF_FEATURES | The number of defining features (amino acids) of your query LCD sequence that you wish to use as search parameters to find similar LCDs. |
+| -i IGN_DISP_THRESHOLD | --ignore_dispersion_threshold IGN_DISP_THRESHOLD | Threshold at which to ignore the linear dispersion parameter (0.0-1.0). |
+| -if ISOFORMS_FILE | --isoforms_file ISOFORMS_FILE | Specify another FASTA-formatted file containing additional isoforms to include in the search if desired. |
+<br />
 
 # Option 3: Single-protein lcd search
 
