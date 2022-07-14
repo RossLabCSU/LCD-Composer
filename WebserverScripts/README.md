@@ -12,9 +12,7 @@ The scripts in this directory are command-line adaptations of the options availa
 # Option 1: Standard LCD-Composer search
 **Basic usage:**
 
-    python LCD-Composer.py Sequences_File Results_File [-a AMINO_ACIDS] [-c COMPOSITION] [-w WINDOW_SIZE] [-d DISPERSION] [-i IGNORE_DISPERSION_THRESHOLD]
-
-Identify LCDs based on amino acid composition and linear amino acid dispersion.
+    python Option1_LCDcomposer.py Sequences_File [-a AMINO_ACIDS] [-c COMPOSITION] [-w WINDOW_SIZE] [-d DISPERSION] [-i IGNORE_DISPERSION_THRESHOLD] [-m METHOD] [-if ISOFORMS_FILE] [-r]
 
 ***positional arguments:***<br/>
 | Positional Argument | Description |
@@ -43,9 +41,7 @@ Identify LCDs based on amino acid composition and linear amino acid dispersion.
 # Option 2: LCD similarity search
 **Basic usage:**
 
-    python LCD-Composer.py Sequences_File Results_File [-a AMINO_ACIDS] [-c COMPOSITION] [-w WINDOW_SIZE] [-d DISPERSION] [-i IGNORE_DISPERSION_THRESHOLD]
-
-Identify LCDs based on amino acid composition and linear amino acid dispersion.
+    python Option2_LCDsimilaritySearch.py Sequences_File Query_Sequence_File [-n NUMBER_OF_FEATURES] [-i IGNORE_DISPERSION_THRESHOLD] [-if ISOFORMS_FILE]
 
 ***positional arguments (order matters!):***<br/>
 | Positional Argument | Description |
