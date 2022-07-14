@@ -33,7 +33,7 @@ The scripts in this directory are command-line adaptations of the options availa
 | -w WINDOW_SIZE | --window_size WINDOW_SIZE | Sliding window size. |
 | -d DISPERSION | --dispersion DISPERSION | Linear dispersion threshold for amino acid(s) of interest (0.0-1.0). |
 | -i IGN_DISP_THRESHOLD | --ignore_dispersion_threshold IGN_DISP_THRESHOLD | Threshold at which to ignore the linear dispersion parameter (0.0-1.0). |
-| -m METHOD | --dispersion_method METHOD | Linear dispersion method (accepted arguments are "New" and "Original": see http://lcd-composer.bmb.colostate.edu/help for more details). |
+| -m METHOD | --dispersion_method METHOD | Linear dispersion method (accepted arguments are "New" and "Original": see [this Help page](http://lcd-composer.bmb.colostate.edu:9000/help) for more details). |
 | -if ISOFORMS_FILE | --isoforms_file ISOFORMS_FILE | Specify another FASTA-formatted file containing additional isoforms to include in the search if desired. |
 | -r | --run_autodetect | Run "auto-detect" mode (i.e. a separate LCD search for each of the 20 canonical amino acids). This will override any amino acid specified. |
 <br />
@@ -82,7 +82,7 @@ The scripts in this directory are command-line adaptations of the options availa
 | -w WINDOW_SIZE | --window_size WINDOW_SIZE | Sliding window size. |
 | -d DISPERSION | --dispersion DISPERSION | Linear dispersion threshold for amino acid(s) of interest (0.0-1.0). |
 | -i IGN_DISP_THRESHOLD | --ignore_dispersion_threshold IGN_DISP_THRESHOLD | Threshold at which to ignore the linear dispersion parameter (0.0-1.0). |
-| -m METHOD | --dispersion_method METHOD | Linear dispersion method (accepted arguments are "New" and "Original": see http://lcd-composer.bmb.colostate.edu/help for more details). |
+| -m METHOD | --dispersion_method METHOD | Linear dispersion method (accepted arguments are "New" and "Original": see [this Help page](http://lcd-composer.bmb.colostate.edu:9000/help) for more details). |
 | -r | --run_autodetect | Run "auto-detect" mode (i.e. a separate LCD search for each of the 20 canonical amino acids). This will override any amino acid specified. |
 | -p | --plot | Generate a composition plot for your protein. Remaining parameters apply only when the -p/--plot option is specified. |
 | -ir IMAGE_RESOLUTION | --img_resolution IMAGE_RESOLUTION | Resolution of plot image. |
@@ -118,7 +118,7 @@ The scripts in this directory are command-line adaptations of the options availa
 | -w WINDOW_SIZE | --window_size WINDOW_SIZE | Sliding window size. |
 | -d DISPERSION | --dispersion DISPERSION | Linear dispersion threshold for amino acid(s) of interest (0.0-1.0). |
 | -i IGN_DISP_THRESHOLD | --ignore_dispersion_threshold IGN_DISP_THRESHOLD | Threshold at which to ignore the linear dispersion parameter (0.0-1.0). |
-| -m METHOD | --dispersion_method METHOD | Linear dispersion method (accepted arguments are "New" and "Original": see http://lcd-composer.bmb.colostate.edu/help for more details). |
+| -m METHOD | --dispersion_method METHOD | Linear dispersion method (accepted arguments are "New" and "Original": see [this Help page](http://lcd-composer.bmb.colostate.edu:9000/help) for more details). |
 | -if ISOFORMS_FILE | --isoforms_file ISOFORMS_FILE | Specify another FASTA-formatted file containing additional isoforms to include in the search if desired. |
 | -r | --run_autodetect | Run "auto-detect" mode (i.e. a separate LCD search for each of the 20 canonical amino acids). This will override any amino acid specified. |
 | -iv | --impute_value | Impute biased frequency value(s) for enrichment test if no LCDs were found. |
