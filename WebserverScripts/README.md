@@ -37,7 +37,7 @@ Identify LCDs based on amino acid composition and linear amino acid dispersion.
 | -d DISPERSION | --dispersion DISPERSION | Linear dispersion threshold for amino acid(s) of interest (0.0-1.0). |
 | -i IGN_DISP_THRESHOLD | --ignore_dispersion_threshold IGN_DISP_THRESHOLD | Threshold at which to ignore the linear dispersion parameter (0.0-1.0). |
 | -m METHOD | --dispersion_method METHOD | Linear dispersion method (accepted arguments are "New" and "Original": see http://lcd-composer.bmb.colostate.edu/help for more details). |
-| -r | --run_autodetect | Run "auto-detect" mode (i.e. a separate LCD search for each of the 20 canonical amino acids). |
+| -r | --run_autodetect | Run "auto-detect" mode (i.e. a separate LCD search for each of the 20 canonical amino acids). This will override any amino acid specified. |
 | -if ISOFORMS_FILE | --isoforms_file ISOFORMS_FILE | Specify another FASTA-formatted file containing additional isoforms to include in the search if desired. |
 <br />
 
