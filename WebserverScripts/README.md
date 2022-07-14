@@ -9,6 +9,18 @@ The scripts in this directory are command-line adaptations of the options availa
 [Option 5: LCD co-occurrence analysis](#option-5-lcd-co-occurrence-analysis)<br />
 [Automated GO-term analysis](#automated-go-term-analysis)
 
+## Dependencies
+| Script | Dependencies* | Required Files |
+| --- | --- | --- |
+| Option1_LCDcomposer.py | *None* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Sequences_File (FASTA format) |
+| Option2_LCDsimilaritySearch.py | *None* | Sequences file (FASTA format); Query LCD sequence file (FASTA format) |
+| Option3_SingleProtein.py | Matplotlib v3.1.1<br/>Seaborn v0.9.0 | Sequence file (FASTA format, only 1 sequence) |
+| Option4_LCD_EnrichmentTest.py | Matplotlib v3.1.1<br/>Seaborn v0.9.0<br/>Scipy v1.3.1<br/>mpmath v1.1.0 | Sequences file (FASTA format); UniProt IDs file (one UniProt ID per line) |
+| Option5_LCD_CoOccurrence.py | *None* | Jobfile IDs (i.e. numerical IDs of results files) |
+| Run_GOterm_analysis.py | GOATOOLS v1.0.2 | Jobfile ID (i.e. numerical ID of results file); Sequences file (FASTA format, from UniProt; defines "background" protein set); Gene annotation file (GAF) |
+
+*\*Compatibility with other versions of dependencies is possible but not guaranteed.*
+<br/><br/>
 # Option 1: Standard LCD-Composer search
 **Basic usage:**
 
@@ -138,7 +150,7 @@ The scripts in this directory are command-line adaptations of the options availa
 # Automated GO-term analysis
 **Basic usage:**
 
-    python Run_GOterm_Analysis_LCDcomposer_Results.py Jobfile_ID Sequences_File GAF_File
+    python Run_GOterm_Analysis.py Jobfile_ID Sequences_File GAF_File
 
 ***positional arguments (order matters!):***<br/>
 | Positional Argument | Description |
