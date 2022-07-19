@@ -19,7 +19,7 @@ The scripts in this directory are command-line adaptations of the options availa
 | Option5_LCD_CoOccurrence.py | *None* | Jobfile IDs (i.e. numerical IDs of results files) |
 | Run_GOterm_analysis.py | GOATOOLS v1.0.2 | Jobfile ID (i.e. numerical ID of results file); Sequences file (FASTA format, from UniProt; defines "background" protein set); Gene annotation file (GAF) |
 
-*\*Compatibility with other versions of dependencies is possible but not guaranteed.*
+*\*Compatibility with other versions of dependencies is possible but not guaranteed. All scripts were tested and functional with Python v3.7.4.*
 <br/><br/>
 # Option 1: Standard LCD-Composer search
 **Basic usage:**
