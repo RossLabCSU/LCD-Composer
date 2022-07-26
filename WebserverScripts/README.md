@@ -17,7 +17,7 @@ The scripts in this directory are command-line adaptations of the options availa
 | Option3_SingleProtein.py | Matplotlib v3.1.1<br/>Seaborn v0.9.0 | Sequence file (FASTA format, only 1 sequence) |
 | Option4_LCD_EnrichmentTest.py | Matplotlib v3.1.1<br/>Seaborn v0.9.0<br/>Scipy v1.3.1<br/>mpmath v1.1.0 | Sequences file (FASTA format); UniProt IDs file (one UniProt ID per line) |
 | Option5_LCD_CoOccurrence.py | *None* | Jobfile IDs (i.e. numerical IDs of results files) |
-| Run_GOterm_analysis.py | GOATOOLS v1.0.2 | Jobfile ID (i.e. numerical ID of results file); Sequences file (FASTA format, from UniProt; defines "background" protein set); Gene annotation file (GAF) |
+| Run_GOterm_analysis.py | GOATOOLS v1.0.2<br/>Scipy v1.3.1 | Jobfile ID (i.e. numerical ID of results file); Sequences file (FASTA format, from UniProt; defines "background" protein set); Gene annotation file (GAF) |
 
 *\*Compatibility with other versions of dependencies is possible but not guaranteed. All scripts were tested and functional with Python v3.7.4.*
 <br/><br/>
