@@ -13,11 +13,11 @@ The scripts in this directory are command-line adaptations of the options availa
 | Script | Dependencies* | Required Files |
 | --- | --- | --- |
 | Option1_LCDcomposer.py | *None* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Sequences_File (FASTA format) |
-| Option2_LCDsimilaritySearch.py | *None* | Sequences file (FASTA format); Query LCD sequence file (FASTA format) |
+| Option2_LCDsimilaritySearch.py | *None* | Sequences file (FASTA format)<br/>Query LCD sequence file (FASTA format) |
 | Option3_SingleProtein.py | Matplotlib v3.1.1<br/>Seaborn v0.9.0 | Sequence file (FASTA format, only 1 sequence) |
-| Option4_LCD_EnrichmentTest.py | Matplotlib v3.1.1<br/>Seaborn v0.9.0<br/>Scipy v1.3.1<br/>mpmath v1.1.0 | Sequences file (FASTA format); UniProt IDs file (one UniProt ID per line) |
+| Option4_LCD_EnrichmentTest.py | Matplotlib v3.1.1<br/>Seaborn v0.9.0<br/>Scipy v1.3.1<br/>mpmath v1.1.0 | Sequences file (FASTA format)<br/>UniProt IDs file (one UniProt ID per line) |
 | Option5_LCD_CoOccurrence.py | *None* | Jobfile IDs (i.e. numerical IDs of results files) |
-| Run_GOterm_analysis.py | GOATOOLS v1.0.2<br/>Scipy v1.3.1 | Jobfile ID (i.e. numerical ID of results file); Sequences file (FASTA format, from UniProt to define "background" protein set); Gene annotation file (GAF); Gene Ontology (.obo file) |
+| Run_GOterm_analysis.py | GOATOOLS v1.0.2<br/>Scipy v1.3.1 | Jobfile ID (i.e. numerical ID of results file)<br/>Sequences file (1 of 13 found in "Proteomes.zip", from UniProt to define "background" protein set)<br/>Gene annotation file (GAF) found in "GeneAnnotationFiles.zip"<br/>Gene Ontology (.obo file)<br/>"Length-Associated_GOterms_SupportedOrganisms" file |
 
 *\*Compatibility with other versions of dependencies is possible but not guaranteed. All scripts were tested and functional with Python v3.7.4.*
 <br/><br/>
