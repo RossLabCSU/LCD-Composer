@@ -11,21 +11,28 @@ LCD-Composer runs on Python 3 and does not require any external dependencies. Th
 ## Basic Usage
     python LCD-Composer.py Sequences_File Results_File [-a AMINO_ACIDS] [-c COMPOSITION] [-w WINDOW_SIZE] [-d DISPERSION] [-i IGNORE_DISPERSION_THRESHOLD] [-v]
 
-Identify LCDs based on amino acid composition and linear amino acid dispersion.
-
 ***positional arguments:***<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sequences_File &nbsp;&nbsp;&nbsp;&nbsp;The name of the file containing your protein sequences, in FASTA format.<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Results_File &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The name of the results file that you want to create and store the resulting LCD data.
+| Positional Argument | Description |
+| --- | --- |
+| Sequences_File | The name of the file containing the protein sequences you wish to search for LCDs (in FASTA format). |
+| Results_File | The name of the results file that you want to create and store the resulting LCD data. |
+<br />
 
 ***required arguments:***<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-a AMINO_ACIDS, --amino_acids AMINO_ACIDS &nbsp;&nbsp;&nbsp;&nbsp;Amino acid(s) of interest (single letter abbreviation).<br/>
+| Shortcut usage | Argument usage | Description |
+| --- | --- | --- |
+| -a AMINO_ACIDS &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | --amino_acids AMINO_ACIDS &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Amino acid(s) of interest (single letter abbreviation, with a single underscore between each amino acid group when desired). |
+<br />
 
 ***optional arguments:***<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-c COMPOSITION, --composition COMPOSITION &nbsp;&nbsp;&nbsp;&nbsp;Percent composition threshold for amino acid(s) of interest (0-100).<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-w WINDOW_SIZE, --window_size WINDOW_SIZE &nbsp;&nbsp;&nbsp;&nbsp;Sliding window size.<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-d DISPERSION, --dispersion DISPERSION &nbsp;&nbsp;&nbsp;&nbsp;Linear dispersion threshold for amino acid(s) of interest (0.0-1.0).<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-i IGNORE_DISPERSION_THRESHOLD, --ignore_dispersion_threshold IGNORE_DISPERSION_THRESHOLD &nbsp;&nbsp;&nbsp;&nbsp;Threshold at which to &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ignore the linear dispersion parameter (0.0-1.0).<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-v, --verbose &nbsp;&nbsp;&nbsp;&nbsp;Output verbose data for each protein (per-position composition and dispersion values).<br/>
+| Shortcut usage | Argument usage | Description |
+| --- | --- | --- |
+| -c COMPOSITION | --composition COMPOSITION | Percent composition threshold for amino acid(s) of interest (0-100). |
+| -w WINDOW_SIZE | --window_size WINDOW_SIZE | Sliding window size. |
+| -d DISPERSION | --dispersion DISPERSION | Linear dispersion threshold for amino acid(s) of interest (0.0-1.0). |
+| -i IGN_DISP_THRESHOLD | --ignore_dispersion_threshold IGN_DISP_THRESHOLD | Threshold at which to ignore the linear dispersion parameter (0.0-1.0). |
+| -v | --verbose | Output verbose data for each protein (per-position composition and dispersion values). |
+<br />
 
 ***The following tutorial video demonstrates how to run LCD-Composer with default or customizable parameters:***<br/>
 https://www.youtube.com/watch?v=0fybpRAMi6k&feature=youtu.be
