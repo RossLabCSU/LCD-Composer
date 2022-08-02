@@ -73,12 +73,12 @@ The scripts in this directory are command-line adaptations of the options availa
 # Option 3: Single-protein LCD search
 **Basic usage:**
 
-    python Option3_SingleProtein.py Sequences_File [-a AMINO_ACIDS] [-c COMPOSITION] [-w WINDOW_SIZE] [-d DISPERSION] [-i IGNORE_DISPERSION_THRESHOLD] [-m METHOD] [-if ISOFORMS_FILE] [-r] [-p] [-ir IMAGE_RESOLUTION] [-iw IMAGE_WIDTH] [-ih IMAGE_HEIGHT] [-if IMAGE_FILETYPE] [-tl THRESHOLD_LINE] [-cp COLOR_PALETTE] [-pa PLOTTING_AAS]
+    python Option3_SingleProtein.py Sequence_File [-a AMINO_ACIDS] [-c COMPOSITION] [-w WINDOW_SIZE] [-d DISPERSION] [-i IGNORE_DISPERSION_THRESHOLD] [-m METHOD] [-if ISOFORMS_FILE] [-r] [-p] [-ir IMAGE_RESOLUTION] [-iw IMAGE_WIDTH] [-ih IMAGE_HEIGHT] [-if IMAGE_FILETYPE] [-tl THRESHOLD_LINE] [-cp COLOR_PALETTE] [-pa PLOTTING_AAS]
     
 ***positional arguments:***<br/>
 | Positional Argument | Description |
 | --- | --- |
-| Sequences_File | The name of the file containing the protein sequence you wish to search for LCDs (in FASTA format). |
+| Sequence_File | The name of the file containing the protein sequence you wish to search for LCDs (in FASTA format). |
 <br />
 
 ***required arguments:***<br/>
@@ -109,12 +109,13 @@ The scripts in this directory are command-line adaptations of the options availa
 # Option 4: LCD enrichment analysis
 **Basic usage:**
 
-    python Option4_LCD_EnrichmentTest.py Sequences_File [-a AMINO_ACIDS] [-c COMPOSITION] [-w WINDOW_SIZE] [-d DISPERSION] [-i IGNORE_DISPERSION_THRESHOLD] [-m METHOD] [-if ISOFORMS_FILE] [-r] [-iv]
+    python Option4_LCD_EnrichmentTest.py Sequences_File UniProtIDs_File [-a AMINO_ACIDS] [-c COMPOSITION] [-w WINDOW_SIZE] [-d DISPERSION] [-i IGNORE_DISPERSION_THRESHOLD] [-m METHOD] [-if ISOFORMS_FILE] [-r] [-iv]
 
 ***positional arguments:***<br/>
 | Positional Argument | Description |
 | --- | --- |
 | Sequences_File | The name of the file containing the protein sequences you wish to search for LCDs (in FASTA format). |
+| UniProtIDs_File | The name of the file containing a list of UniProt IDs for your proteins of interest (one per line). |
 <br />
 
 ***required arguments:***<br/>
