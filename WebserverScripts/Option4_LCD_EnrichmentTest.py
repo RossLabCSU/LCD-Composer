@@ -853,7 +853,7 @@ def barplot(random_id, df, color_palette):
     fig = plt.gcf()
     fig.set_size_inches(8, 4.5)
     filename = random_id + '_LCD_Enrichment_Barplot.tiff'
-    plt.savefig(filename, bbox_inches='tight', dpi=600)
+    plt.savefig(filename, bbox_inches='tight', dpi=600, pil_kwargs={'compression':'tiff_lzw'})
     plt.close()
     
     return filename
@@ -1043,7 +1043,7 @@ def main(args):
             log2ORs = [x if x != -1000 else 'N/A' for x in log2ORs] #REPLACE DUMMY VALUES WITH "N/A" STRING.
             log2ORs_string = [x if x != -1000 else 'N/A' for i, x in enumerate(log2ORs)]
             # USES log2ORs_string HERE==============
-            rows = [[sorted_aas[i]] + line_data[i] + [log2ORs_string[i], uncorrected_pvals[i], corrected_pvals[i]] for i in range(len(corrected_pvals))]
+            rows = [[sorted_aas[i]] + line_data[i] + [log2ORs_string[i], uncorrected_pvals[i], corrected_pvals[i], ', '.join(user_lcdprot_idlists[i]), ', '.join(proteome_lcdprot_idlists[i])] for i in range(len(corrected_pvals))]
         else:
             log2ORs_string = [x if not imputation_checks[i] else 'N/A* [' + str(x) + ' biased est.]' for i, x in enumerate(log2ORs)] #REPLACE DUMMY VALUES WITH "N/A" STRING.
             log2ORs_string_rounded = [x if not imputation_checks[i] else 'N/A* [' + str(round(x, 3)) + ' biased est.]' for i, x in enumerate(log2ORs)] #REPLACE DUMMY VALUES WITH "N/A" STRING.
@@ -1187,7 +1187,7 @@ def get_args(arguments):
                         
                         Note that computation time may be much longer for this mode.""")
                         
-    parser.add_argument('-iv', '--impute_value', action='store_false',
+    parser.add_argument('-iv', '--impute_value', action='store_true',
                         help="""Impute value of 1 for classes of LCDs for which no LCDs were identified in your proteins of interst.
                         
                         This results in biased estimates of the degree of LCD enrichment in your proteins of interest. However, p-values are still calculated based on the unbiased observation (i.e. using the 0 value, in these instances).""")
