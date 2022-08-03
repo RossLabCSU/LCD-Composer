@@ -73,7 +73,7 @@ The scripts in this directory are command-line adaptations of the options availa
 # Option 3: Single-protein LCD search
 **Basic usage:**
 
-    python Option3_SingleProtein.py Sequence_File [-a AMINO_ACIDS] [-c COMPOSITION] [-w WINDOW_SIZE] [-d DISPERSION] [-i IGNORE_DISPERSION_THRESHOLD] [-m METHOD] [-if ISOFORMS_FILE] [-r] [-p] [-ir IMAGE_RESOLUTION] [-iw IMAGE_WIDTH] [-ih IMAGE_HEIGHT] [-if IMAGE_FILETYPE] [-tl THRESHOLD_LINE] [-cp COLOR_PALETTE] [-pa PLOTTING_AAS]
+    python Option3_SingleProtein.py Sequence_File [-a AMINO_ACIDS] [-c COMPOSITION] [-w WINDOW_SIZE] [-d DISPERSION] [-i IGNORE_DISPERSION_THRESHOLD] [-m METHOD] [-if ISOFORMS_FILE] [-r] [-p] [-ir IMAGE_RESOLUTION] [-iw IMAGE_WIDTH] [-ih IMAGE_HEIGHT] [-if IMAGE_FILETYPE] [-tl THRESHOLD_LINE] [-cp COLOR_PALETTE] [-pn PROTEIN_NAME] [-pa PLOTTING_AAS]
     
 ***positional arguments:***<br/>
 | Positional Argument | Description |
@@ -103,6 +103,7 @@ The scripts in this directory are command-line adaptations of the options availa
 | -if IMAGE_FILETYPE | --img_filetype IMAGE_FILETYPE | Filetype (i.e. file extension) of plot. |
 | -tl THRESHOLD_LINE | --threshold_line THRESHOLD_LINE | Composition threshold at which to draw a horizontal threshold line. |
 | -cp COLOR_PALETTE | --color_palette COLOR_PALETTE | Color palette for plotting LCD categories. Must be a series of hex codes separated by underscores and *without* the customary hashtag as the first character. |
+| -pn PROTEIN_NAME | --prot_name PROTEIN_NAME | The name of your protein. This is used only as a data label (no other purpose). |
 | -pa PLOTTING_AAS | --plotting_aas PLOTTING_AAS | Amino acid(s) for plotting (if different from amino acids used in the LCD search). Each AA group should be separated by an underscore. |
 <br />
 
