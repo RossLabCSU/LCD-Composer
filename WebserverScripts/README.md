@@ -32,15 +32,10 @@ The scripts in this directory are command-line adaptations of the options availa
 | Sequences_File | The name of the file containing the protein sequences you wish to search for LCDs (in FASTA format). |
 <br />
 
-***required arguments:***<br/>
-| Shortcut usage | Argument usage | Description |
-| --- | --- | --- |
-| -a AMINO_ACIDS | --amino_acids AMINO_ACIDS | Amino acid(s) of interest (single letter abbreviation, with a single underscore between each amino acid group when desired). This becomes optional if the -r flag is used. |
-<br />
-
 ***optional arguments:***<br/>
 | Shortcut usage | Argument usage | Description |
 | --- | --- | --- |
+| -a AMINO_ACIDS | --amino_acids AMINO_ACIDS | Amino acid(s) of interest (single letter abbreviation, with a single underscore between each amino acid group when desired). If no amino acid of interest is specified, "auto-detect" mode will be used by default (see description below). |
 | -c COMPOSITION | --composition COMPOSITION | Percent composition threshold for amino acid(s) of interest (0-100). |
 | -w WINDOW_SIZE | --window_size WINDOW_SIZE | Sliding window size. |
 | -d DISPERSION | --dispersion DISPERSION | Linear dispersion threshold for amino acid(s) of interest (0.0-1.0). |
@@ -81,15 +76,10 @@ The scripts in this directory are command-line adaptations of the options availa
 | Sequence_File | The name of the file containing the protein sequence you wish to search for LCDs (in FASTA format). |
 <br />
 
-***required arguments:***<br/>
-| Shortcut usage | Argument usage | Description |
-| --- | --- | --- |
-| -a AMINO_ACIDS | --amino_acids AMINO_ACIDS | Amino acid(s) of interest (single letter abbreviation, with a single underscore between each amino acid group when desired). This becomes optional if the -r flag is used. |
-<br />
-
 ***optional arguments:***<br/>
 | Shortcut usage | Argument usage | Description |
 | --- | --- | --- |
+| -a AMINO_ACIDS | --amino_acids AMINO_ACIDS | Amino acid(s) of interest (single letter abbreviation, with a single underscore between each amino acid group when desired). If no amino acid of interest is specified, "auto-detect" mode will be used by default (see description below). |
 | -c COMPOSITION | --composition COMPOSITION | Percent composition threshold for amino acid(s) of interest (0-100). |
 | -w WINDOW_SIZE | --window_size WINDOW_SIZE | Sliding window size. |
 | -d DISPERSION | --dispersion DISPERSION | Linear dispersion threshold for amino acid(s) of interest (0.0-1.0). |
@@ -119,15 +109,10 @@ The scripts in this directory are command-line adaptations of the options availa
 | UniProtIDs_File | The name of the file containing a list of UniProt IDs for your proteins of interest (one per line). |
 <br />
 
-***required arguments:***<br/>
-| Shortcut usage | Argument usage | Description |
-| --- | --- | --- |
-| -a AMINO_ACIDS | --amino_acids AMINO_ACIDS | Amino acid(s) of interest (single letter abbreviation, with a single underscore between each amino acid group when desired). This becomes optional if the -r flag is used. |
-<br />
-
 ***optional arguments:***<br/>
 | Shortcut usage | Argument usage | Description |
 | --- | --- | --- |
+| -a AMINO_ACIDS | --amino_acids AMINO_ACIDS | Amino acid(s) of interest (single letter abbreviation, with a single underscore between each amino acid group when desired). If no amino acid of interest is specified, "auto-detect" mode will be used by default (see description below). |
 | -c COMPOSITION | --composition COMPOSITION | Percent composition threshold for amino acid(s) of interest (0-100). |
 | -w WINDOW_SIZE | --window_size WINDOW_SIZE | Sliding window size. |
 | -d DISPERSION | --dispersion DISPERSION | Linear dispersion threshold for amino acid(s) of interest (0.0-1.0). |
