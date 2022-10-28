@@ -1,5 +1,5 @@
 ## New!
-LCD-Composer webserver coming soon!
+The LCD-Composer webserver has been officially released! You can access the server at (**http://lcd-composer.bmb.colostate.edu/**) and the corresponding paper ([***Cascarina and Ross (2022), Bioinformatics***](https://pubmed.ncbi.nlm.nih.gov/36282522/)). We have also added new command-line scripts in the WebserverScripts directory for those interested in running high-throughput analyses for any of the options available on the webserver.
 
 # LCD-Composer
 LCD-Composer is a ***l***ow-***c***omplexity ***d***omain ***compo***sition ***s***cann***er*** designed to identify simple or multifaceted low-complexity domains (LCDs) in protein sequences, described in [***Cascarina et al. (2021), NAR Genomics and Bioinformatics***](https://academic.oup.com/nargab/article/3/2/lqab048/6285187).
