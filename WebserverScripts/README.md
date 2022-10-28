@@ -1,5 +1,5 @@
 # LCD-Composer Command-line Scripts
-The scripts in this directory are command-line adaptations of the options available on the LCD-Composer webserver (http://lcd-composer.bmb.colostate.edu). Below is a brief description of usage and arguments available for each script. For more detailed description of how to use LCD-Composer command-line arguments, please refer to the README file in the main LCD-Composer directory or [this Help page on the LCD-Composer webserver](http://lcd-composer.bmb.colostate.edu:9000/help). You can also read our short paper describing the LCD-Composer webserver (ADD LINK WHEN PUBLISHED).
+The scripts in this directory are command-line adaptations of the options available on the LCD-Composer webserver (http://lcd-composer.bmb.colostate.edu). Below is a brief description of usage and arguments available for each script. For more detailed description of how to use LCD-Composer command-line arguments, please refer to the README file in the main LCD-Composer directory or [this Help page on the LCD-Composer webserver](http://lcd-composer.bmb.colostate.edu:9000/help). You can also read our [short paper](https://pubmed.ncbi.nlm.nih.gov/36282522/) describing the LCD-Composer webserver.
 
 **Skip to:**<br />
 [Option 1: Standard LCD-Composer search](#option-1-standard-lcd-composer-search)<br />
