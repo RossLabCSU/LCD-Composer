@@ -9,7 +9,7 @@ Description:
     part of the LCD-Composer webserver.
     
     For a description of modifications and added functionality, refer to Cascarina and Ross (2022) 
-    (LINK TO BIOINFORMATICS WHEN PUBLISHED) and the LCD-Composer webserver HELP page at 
+    (https://pubmed.ncbi.nlm.nih.gov/36282522/) and the LCD-Composer webserver HELP page at 
     http://lcd-composer.bmb.colostate.edu:9000/help.
     Documentation for LCD-Composer is available at https://github.com/RossLabCSU/LCD-Composer.
 ============================================================================================
