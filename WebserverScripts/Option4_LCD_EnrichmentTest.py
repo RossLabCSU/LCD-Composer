@@ -958,7 +958,7 @@ def get_params(args):
     disp_method = args.dispersion_method
     if disp_method == 'New' and not run_autodetect:
         if disp_threshold == 'default':
-            disp_threshold = [0.5 for i in range(len(amino_acids))]
+            disp_threshold = [0.5 - 0.0000001 for i in range(len(amino_acids))]
         else:
             try:
                 disp_threshold = disp_threshold.split('_')
@@ -975,7 +975,7 @@ def get_params(args):
                 exit()
     elif disp_method == 'Original' or run_autodetect:
         if disp_threshold == 'default':
-            disp_threshold = 0.5
+            disp_threshold = 0.5 - 0.0000001
         else:
             try:
                 disp_threshold = float(args.dispersion) - 0.000001    # +/-0.000001 --> ADJUST VALUE FOR DOWNSTREAM FLOATING POINT COMPARISONS
